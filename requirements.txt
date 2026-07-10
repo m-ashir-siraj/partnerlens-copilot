@@ -1,0 +1,8 @@
+pandas
+numpy
+pyyaml
+sqlparse
+streamlit
+pytest
+python-dotenv
+openai
