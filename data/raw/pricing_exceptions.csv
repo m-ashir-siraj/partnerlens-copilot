@@ -1,0 +1,879 @@
+exception_id,partner_id,requested_date,exception_type,exception_status,business_justification,expected_annual_revenue_usd,approved_by_role,review_due_date
+E000001,P000020,2021-05-18,Discounted bps,Approved,Contract renewal concession,94666.4,Risk Review,2021-11-28
+E000002,P000024,2025-03-30,Legacy plan extension,Pending,Migration incentive,27352.17,Product Director,2026-04-27
+E000003,P000027,2022-05-18,Discounted bps,Rejected,Contract renewal concession,1616761.47,Pricing Governance,2023-05-26
+E000004,P000041,2018-11-08,High-risk waiver,Pending,Risk-adjusted commercial exception,952912.68,None,2019-05-26
+E000005,P000044,2020-02-21,Legacy plan extension,Approved,Competitive displacement,8139.57,Revenue Management,2020-08-26
+E000006,P000046,2024-11-18,High-risk waiver,Approved,New partner acquisition,7698.34,Pricing Governance,2025-12-04
+E000007,P000051,2018-07-02,High-risk waiver,Approved,New partner acquisition,57133.05,Revenue Management,2019-07-22
+E000008,P000052,2025-04-28,Discounted bps,Expired,Migration incentive,21248.95,Pricing Governance,2025-11-02
+E000009,P000061,2018-06-27,Volume threshold waiver,Expired,New partner acquisition,19128.6,Product Director,2019-07-16
+E000010,P000062,2024-05-12,Volume threshold waiver,Approved,Strategic retention,10811.52,None,2024-12-06
+E000011,P000064,2017-12-22,Waived monthly minimum,Expired,New partner acquisition,6491.42,Pricing Governance,2019-01-13
+E000012,P000066,2024-08-04,Legacy plan extension,Approved,Risk-adjusted commercial exception,781833.22,Risk Review,2026-08-25
+E000013,P000069,2021-03-09,Discounted bps,Expired,Competitive displacement,4803.9,Revenue Management,2022-03-28
+E000014,P000073,2018-05-04,Volume threshold waiver,Expired,New partner acquisition,54308.27,Revenue Management,2019-06-03
+E000015,P000088,2023-09-11,High-risk waiver,Approved,Competitive displacement,11002.49,Pricing Governance,2024-10-07
+E000016,P000095,2023-09-12,Legacy plan extension,Expired,Contract renewal concession,950.29,Revenue Management,2024-09-28
+E000017,P000096,2022-08-27,Waived monthly minimum,Expired,Contract renewal concession,7380.35,Product Director,2023-09-26
+E000018,P000098,2024-04-13,Volume threshold waiver,Approved,Competitive displacement,198671.3,None,2025-05-18
+E000019,P000100,2018-03-02,Legacy plan extension,Approved,New partner acquisition,101543.12,Revenue Management,2020-03-24
+E000020,P000124,2024-11-30,Volume threshold waiver,Rejected,Competitive displacement,380.23,Product Director,2025-06-20
+E000021,P000126,2024-04-15,Waived monthly minimum,Rejected,Contract renewal concession,57836.25,Product Director,2024-11-12
+E000022,P000130,2021-10-25,Waived monthly minimum,Approved,Contract renewal concession,10972.12,Pricing Governance,2022-11-05
+E000023,P000146,2023-11-20,Legacy plan extension,Expired,Risk-adjusted commercial exception,13499.27,Pricing Governance,2025-12-21
+E000024,P000155,2018-02-17,Waived monthly minimum,Approved,New partner acquisition,13015.06,Revenue Management,2019-03-17
+E000025,P000166,2023-02-05,High-risk waiver,Approved,Risk-adjusted commercial exception,890507.36,Risk Review,2024-02-23
+E000026,P000167,2024-11-10,Volume threshold waiver,Approved,Strategic retention,64701.12,Revenue Management,2025-11-28
+E000027,P000169,2023-07-03,High-risk waiver,Approved,Risk-adjusted commercial exception,14980.68,Pricing Governance,2024-07-26
+E000028,P000171,2019-04-20,Discounted bps,Rejected,Competitive displacement,67533.44,Risk Review,2020-05-07
+E000029,P000184,2024-06-03,Legacy plan extension,Approved,New partner acquisition,22260.52,Revenue Management,2026-06-30
+E000030,P000187,2023-07-08,High-risk waiver,Pending,Migration incentive,1415887.76,Product Director,2024-07-31
+E000031,P000205,2025-06-20,High-risk waiver,Approved,Migration incentive,58879.31,Revenue Management,2026-07-19
+E000032,P000208,2023-09-18,Legacy plan extension,Expired,Competitive displacement,822050.18,Pricing Governance,2024-09-24
+E000033,P000220,2020-12-06,Discounted bps,Approved,New partner acquisition,72053.34,Revenue Management,2021-12-13
+E000034,P000221,2024-12-18,Waived monthly minimum,Approved,Contract renewal concession,191280.82,Pricing Governance,2025-07-16
+E000035,P000224,2023-07-06,Legacy plan extension,Approved,Contract renewal concession,250691.96,Pricing Governance,2024-07-28
+E000036,P000225,2024-10-28,Discounted bps,Approved,Contract renewal concession,10104487.91,Product Director,2025-11-22
+E000037,P000234,2020-12-15,Volume threshold waiver,Approved,Strategic retention,3524.39,Pricing Governance,2021-06-21
+E000038,P000242,2025-05-28,High-risk waiver,Approved,Risk-adjusted commercial exception,40872.3,Product Director,2026-06-12
+E000039,P000243,2018-09-23,High-risk waiver,Rejected,Competitive displacement,382065.69,Revenue Management,2019-10-11
+E000040,P000245,2023-03-07,Waived monthly minimum,Approved,Strategic retention,2038124.06,Risk Review,2025-03-13
+E000041,P000247,2018-06-09,Volume threshold waiver,Approved,New partner acquisition,38042.35,Risk Review,2020-06-30
+E000042,P000255,2024-05-26,High-risk waiver,Approved,Competitive displacement,5566.47,Pricing Governance,2025-06-06
+E000043,P000258,2025-04-21,High-risk waiver,Approved,Strategic retention,3577.26,Product Director,2026-05-25
+E000044,P000264,2024-10-28,High-risk waiver,Approved,Risk-adjusted commercial exception,15171.78,Pricing Governance,2025-05-05
+E000045,P000265,2023-07-14,Waived monthly minimum,Approved,New partner acquisition,231351.4,Revenue Management,2024-07-20
+E000046,P000267,2019-05-31,High-risk waiver,Expired,Competitive displacement,106447.55,Pricing Governance,2020-06-24
+E000047,P000277,2023-05-07,Legacy plan extension,Rejected,New partner acquisition,96757.57,Pricing Governance,2024-06-10
+E000048,P000283,2024-03-30,Waived monthly minimum,Approved,Migration incentive,350771.34,Product Director,2024-10-26
+E000049,P000288,2025-07-17,Volume threshold waiver,Approved,Risk-adjusted commercial exception,91186.97,Pricing Governance,2026-02-14
+E000050,P000297,2024-09-06,High-risk waiver,Approved,Migration incentive,32327.58,Revenue Management,2025-03-12
+E000051,P000310,2024-10-27,High-risk waiver,Approved,New partner acquisition,5877175.91,Product Director,2025-11-04
+E000052,P000316,2025-05-18,Discounted bps,Pending,Migration incentive,1231323.91,Product Director,2026-06-22
+E000053,P000317,2025-07-03,Waived monthly minimum,Approved,Migration incentive,58270.87,None,2026-01-14
+E000054,P000319,2024-11-15,Waived monthly minimum,Approved,Strategic retention,156657.51,Product Director,2026-12-12
+E000055,P000320,2023-11-30,Discounted bps,Approved,Migration incentive,83491.14,Risk Review,2024-06-05
+E000056,P000323,2018-10-30,High-risk waiver,Approved,Risk-adjusted commercial exception,8112.46,None,2019-05-26
+E000057,P000328,2023-04-11,Legacy plan extension,Expired,New partner acquisition,33288.39,Pricing Governance,2025-04-18
+E000058,P000353,2023-04-24,Legacy plan extension,Approved,Strategic retention,694780.44,Pricing Governance,2024-05-07
+E000059,P000354,2024-09-07,Waived monthly minimum,Approved,Strategic retention,606956.89,Pricing Governance,2026-10-12
+E000060,P000357,2025-07-20,Discounted bps,Pending,Competitive displacement,15060.41,Pricing Governance,2026-08-22
+E000061,P000359,2024-09-30,Legacy plan extension,Approved,Migration incentive,28411.28,Product Director,2025-10-07
+E000062,P000363,2023-05-11,Volume threshold waiver,Approved,Contract renewal concession,9260.25,Revenue Management,2024-05-24
+E000063,P000366,2024-01-30,Volume threshold waiver,Expired,Contract renewal concession,86144.13,Pricing Governance,2025-02-25
+E000064,P000374,2022-03-02,Legacy plan extension,Pending,New partner acquisition,19505.21,Revenue Management,2024-03-19
+E000065,P000380,2023-08-22,Waived monthly minimum,Pending,Competitive displacement,3359.66,Revenue Management,2024-03-19
+E000066,P000389,2023-06-25,Waived monthly minimum,Pending,Contract renewal concession,8204.63,None,2024-01-10
+E000067,P000390,2023-12-08,Volume threshold waiver,Rejected,New partner acquisition,12562.72,Pricing Governance,2025-01-09
+E000068,P000393,2025-02-22,Waived monthly minimum,Pending,Migration incentive,1558061.33,Pricing Governance,2027-03-04
+E000069,P000409,2022-01-02,Waived monthly minimum,Pending,Strategic retention,42471.09,Pricing Governance,2023-01-16
+E000070,P000412,2017-12-29,Volume threshold waiver,Pending,Strategic retention,146775.76,Pricing Governance,2020-01-28
+E000071,P000413,2022-04-05,Volume threshold waiver,Approved,New partner acquisition,6793.63,Pricing Governance,2023-05-04
+E000072,P000419,2024-05-19,High-risk waiver,Rejected,Migration incentive,30054.61,Risk Review,2024-12-07
+E000073,P000420,2023-08-01,Volume threshold waiver,Approved,Competitive displacement,45601.05,Pricing Governance,2024-02-13
+E000074,P000422,2024-03-27,Legacy plan extension,Approved,Migration incentive,21358.14,Risk Review,2026-04-07
+E000075,P000425,2024-01-19,High-risk waiver,Rejected,Risk-adjusted commercial exception,747588.49,Risk Review,2026-02-21
+E000076,P000428,2022-09-18,Legacy plan extension,Approved,Risk-adjusted commercial exception,26273.95,Pricing Governance,2023-03-23
+E000077,P000444,2018-06-03,Waived monthly minimum,Approved,Migration incentive,249767.0,None,2019-06-23
+E000078,P000446,2024-03-29,Waived monthly minimum,Approved,Strategic retention,28601.5,Risk Review,2025-04-29
+E000079,P000457,2018-05-21,Legacy plan extension,Pending,Competitive displacement,3512.35,Revenue Management,2019-05-27
+E000080,P000458,2022-09-09,Discounted bps,Pending,Strategic retention,13909.27,Revenue Management,2023-10-09
+E000081,P000459,2025-01-10,Discounted bps,Approved,Contract renewal concession,36091.44,Pricing Governance,2026-01-27
+E000082,P000468,2023-02-02,High-risk waiver,Pending,Competitive displacement,11732.58,Revenue Management,2024-02-22
+E000083,P000469,2019-01-25,Volume threshold waiver,Pending,Contract renewal concession,1003735.39,Pricing Governance,2020-02-28
+E000084,P000473,2023-09-06,Legacy plan extension,Approved,Contract renewal concession,19738.91,Revenue Management,2024-09-27
+E000085,P000476,2023-05-27,Legacy plan extension,Pending,Strategic retention,13713.25,Revenue Management,2023-12-25
+E000086,P000484,2023-02-17,High-risk waiver,Approved,New partner acquisition,19289.59,Revenue Management,2024-02-22
+E000087,P000496,2024-03-22,Volume threshold waiver,Approved,Migration incentive,22289.76,Product Director,2024-10-12
+E000088,P000497,2023-01-26,Legacy plan extension,Pending,Strategic retention,12893.46,Product Director,2025-01-31
+E000089,P000523,2021-05-08,Waived monthly minimum,Approved,Strategic retention,4023.26,Pricing Governance,2022-05-18
+E000090,P000529,2023-08-17,High-risk waiver,Approved,Risk-adjusted commercial exception,443240.57,Pricing Governance,2024-09-09
+E000091,P000534,2021-11-06,Discounted bps,Rejected,Migration incentive,1303.26,Revenue Management,2022-11-27
+E000092,P000544,2025-07-29,Discounted bps,Pending,Competitive displacement,522771.38,Pricing Governance,2027-08-25
+E000093,P000547,2024-11-08,Waived monthly minimum,Approved,New partner acquisition,104812.26,Revenue Management,2025-11-22
+E000094,P000553,2018-12-13,Waived monthly minimum,Rejected,Migration incentive,125925.48,Product Director,2020-01-05
+E000095,P000555,2025-05-13,Waived monthly minimum,Approved,Contract renewal concession,159122.09,Pricing Governance,2027-06-14
+E000096,P000560,2024-05-02,Discounted bps,Approved,New partner acquisition,18911.56,Revenue Management,2025-05-28
+E000097,P000564,2020-01-05,High-risk waiver,Rejected,Contract renewal concession,111638.04,Product Director,2021-01-26
+E000098,P000565,2024-10-01,Waived monthly minimum,Approved,New partner acquisition,83195.93,Product Director,2026-10-25
+E000099,P000573,2018-02-11,Legacy plan extension,Approved,Strategic retention,7009.51,Pricing Governance,2018-08-16
+E000100,P000584,2024-05-29,High-risk waiver,Approved,Contract renewal concession,341427.95,Product Director,2025-06-19
+E000101,P000585,2020-06-23,Legacy plan extension,Pending,Risk-adjusted commercial exception,13377.31,Pricing Governance,2021-06-30
+E000102,P000589,2021-08-17,Volume threshold waiver,Approved,Contract renewal concession,11307.14,Revenue Management,2022-09-10
+E000103,P000598,2023-06-27,Waived monthly minimum,Approved,Contract renewal concession,718424.59,Product Director,2024-01-16
+E000104,P000609,2023-12-03,Legacy plan extension,Approved,Strategic retention,9881.9,None,2024-06-22
+E000105,P000614,2018-03-24,Waived monthly minimum,Approved,Strategic retention,45993.78,Risk Review,2019-04-17
+E000106,P000632,2023-12-07,High-risk waiver,Approved,New partner acquisition,367336.14,None,2025-01-08
+E000107,P000634,2023-01-15,High-risk waiver,Expired,Strategic retention,175316.65,Revenue Management,2025-02-01
+E000108,P000637,2018-01-20,Legacy plan extension,Approved,Migration incentive,7603.18,Pricing Governance,2019-02-23
+E000109,P000638,2025-04-01,High-risk waiver,Approved,Competitive displacement,35688.27,Pricing Governance,2026-05-04
+E000110,P000642,2022-02-10,Volume threshold waiver,Approved,Strategic retention,277762.47,Revenue Management,2023-02-26
+E000111,P000651,2024-05-01,Waived monthly minimum,Approved,New partner acquisition,46392.2,Product Director,2025-05-12
+E000112,P000652,2020-07-06,Volume threshold waiver,Approved,New partner acquisition,300623.93,Revenue Management,2021-07-31
+E000113,P000670,2022-04-05,Volume threshold waiver,Approved,Risk-adjusted commercial exception,4174.3,None,2022-11-06
+E000114,P000674,2023-06-09,High-risk waiver,Approved,New partner acquisition,95664.75,Revenue Management,2025-06-19
+E000115,P000678,2020-05-22,Discounted bps,Pending,Contract renewal concession,9862.89,Revenue Management,2021-06-20
+E000116,P000687,2025-04-09,Volume threshold waiver,Approved,Contract renewal concession,18253.99,Revenue Management,2026-05-10
+E000117,P000689,2022-03-31,High-risk waiver,Rejected,Migration incentive,12459.02,Pricing Governance,2022-10-03
+E000118,P000690,2023-05-04,Waived monthly minimum,Approved,Strategic retention,1181.39,Product Director,2024-05-29
+E000119,P000714,2020-06-06,Volume threshold waiver,Pending,Strategic retention,850.9,Pricing Governance,2021-07-10
+E000120,P000715,2025-02-13,Waived monthly minimum,Approved,Migration incentive,51264.53,Revenue Management,2027-03-14
+E000121,P000719,2023-10-05,High-risk waiver,Approved,Contract renewal concession,18944.2,Pricing Governance,2024-11-04
+E000122,P000724,2020-01-29,Waived monthly minimum,Expired,New partner acquisition,643567.1,Pricing Governance,2021-02-13
+E000123,P000725,2023-03-15,Waived monthly minimum,Approved,Strategic retention,1751.62,Pricing Governance,2025-03-25
+E000124,P000735,2023-09-29,High-risk waiver,Approved,Strategic retention,118134.34,Revenue Management,2024-04-18
+E000125,P000739,2020-11-02,Waived monthly minimum,Pending,Migration incentive,132.91,Pricing Governance,2021-05-10
+E000126,P000742,2023-05-29,Volume threshold waiver,Rejected,Risk-adjusted commercial exception,250596.0,Product Director,2023-12-26
+E000127,P000755,2023-06-10,High-risk waiver,Approved,Migration incentive,495899.68,Product Director,2024-06-26
+E000128,P000758,2023-03-02,High-risk waiver,Pending,Strategic retention,104771.35,None,2025-03-21
+E000129,P000773,2023-04-20,High-risk waiver,Approved,Contract renewal concession,22753.98,Pricing Governance,2025-05-17
+E000130,P000775,2024-06-14,Discounted bps,Approved,Migration incentive,89271.44,Revenue Management,2025-07-02
+E000131,P000776,2025-07-02,High-risk waiver,Rejected,Contract renewal concession,73065.37,None,2026-07-26
+E000132,P000778,2024-04-26,High-risk waiver,Approved,Strategic retention,73861.48,Product Director,2025-05-05
+E000133,P000779,2024-02-07,Waived monthly minimum,Approved,New partner acquisition,25552.99,Revenue Management,2025-02-11
+E000134,P000783,2025-05-26,Volume threshold waiver,Approved,Competitive displacement,30046.57,Pricing Governance,2026-06-19
+E000135,P000786,2020-05-02,Discounted bps,Approved,Strategic retention,8512.93,Product Director,2022-05-17
+E000136,P000797,2025-01-05,Legacy plan extension,Expired,Strategic retention,7904.7,Product Director,2026-01-14
+E000137,P000803,2024-10-24,Volume threshold waiver,Approved,Migration incentive,33436.63,Revenue Management,2025-05-08
+E000138,P000813,2024-06-28,High-risk waiver,Approved,New partner acquisition,119410.97,Product Director,2025-07-09
+E000139,P000825,2023-07-25,Volume threshold waiver,Pending,Competitive displacement,22992.44,Risk Review,2025-08-20
+E000140,P000835,2024-06-27,Volume threshold waiver,Approved,Strategic retention,17562.15,Revenue Management,2025-07-04
+E000141,P000837,2022-05-01,High-risk waiver,Expired,New partner acquisition,6884.24,Risk Review,2022-11-18
+E000142,P000838,2025-06-27,Waived monthly minimum,Approved,Contract renewal concession,384117.38,Pricing Governance,2026-07-27
+E000143,P000839,2025-05-08,Legacy plan extension,Approved,Migration incentive,457740.74,Revenue Management,2026-05-20
+E000144,P000843,2024-02-17,Waived monthly minimum,Approved,New partner acquisition,505620.72,Pricing Governance,2024-08-20
+E000145,P000845,2023-03-17,High-risk waiver,Approved,Migration incentive,1864.18,Product Director,2025-04-10
+E000146,P000846,2021-11-20,Volume threshold waiver,Rejected,Contract renewal concession,49183.56,Product Director,2022-12-09
+E000147,P000851,2021-11-05,Waived monthly minimum,Approved,New partner acquisition,958398.08,Pricing Governance,2022-11-11
+E000148,P000852,2022-12-13,Legacy plan extension,Approved,Risk-adjusted commercial exception,3031051.45,Product Director,2024-01-01
+E000149,P000854,2020-12-30,High-risk waiver,Approved,Migration incentive,208075.36,Pricing Governance,2021-07-11
+E000150,P000855,2024-08-30,Legacy plan extension,Rejected,New partner acquisition,2680.84,Revenue Management,2025-09-10
+E000151,P000857,2018-07-28,Discounted bps,Rejected,Competitive displacement,29943.39,Revenue Management,2019-02-23
+E000152,P000858,2021-09-14,Waived monthly minimum,Approved,Risk-adjusted commercial exception,37353.85,Pricing Governance,2023-10-04
+E000153,P000862,2025-05-04,Waived monthly minimum,Approved,Migration incentive,81526.15,Pricing Governance,2026-06-06
+E000154,P000865,2023-03-02,Discounted bps,Rejected,Strategic retention,726459.05,Pricing Governance,2024-03-31
+E000155,P000870,2023-10-24,Legacy plan extension,Expired,Competitive displacement,25955.14,Revenue Management,2024-11-06
+E000156,P000876,2024-06-23,Volume threshold waiver,Approved,Competitive displacement,94443.06,Pricing Governance,2025-07-14
+E000157,P000877,2023-12-13,Volume threshold waiver,Approved,Migration incentive,20684.56,Revenue Management,2025-01-08
+E000158,P000882,2018-06-17,High-risk waiver,Approved,Strategic retention,14471.98,None,2019-06-23
+E000159,P000889,2025-05-12,Waived monthly minimum,Rejected,Contract renewal concession,22180.67,Pricing Governance,2026-05-30
+E000160,P000890,2024-01-25,Volume threshold waiver,Rejected,Competitive displacement,23343.69,Pricing Governance,2024-08-20
+E000161,P000893,2023-11-28,Waived monthly minimum,Approved,Migration incentive,13900.38,Pricing Governance,2024-06-15
+E000162,P000899,2025-02-07,Waived monthly minimum,Approved,Competitive displacement,2187.39,Pricing Governance,2026-02-28
+E000163,P000901,2020-12-21,Legacy plan extension,Pending,Contract renewal concession,679231.29,Revenue Management,2022-01-08
+E000164,P000905,2018-11-21,Waived monthly minimum,Expired,Migration incentive,18699.05,Pricing Governance,2020-11-26
+E000165,P000906,2018-01-01,High-risk waiver,Approved,Risk-adjusted commercial exception,59755.85,Product Director,2018-07-19
+E000166,P000907,2025-02-07,High-risk waiver,Expired,Strategic retention,68802.25,Product Director,2026-02-18
+E000167,P000908,2021-01-10,Waived monthly minimum,Expired,Migration incentive,57042.23,Pricing Governance,2023-02-07
+E000168,P000909,2024-12-16,Discounted bps,Rejected,New partner acquisition,51746.69,None,2027-01-02
+E000169,P000911,2025-07-15,Discounted bps,Approved,Migration incentive,21790.67,Pricing Governance,2026-07-29
+E000170,P000912,2023-09-08,Discounted bps,Approved,Competitive displacement,356313.48,None,2025-09-26
+E000171,P000914,2023-05-12,Discounted bps,Approved,Contract renewal concession,485474.4,Product Director,2023-11-16
+E000172,P000923,2020-07-04,Legacy plan extension,Approved,Contract renewal concession,108681.29,Product Director,2021-07-29
+E000173,P000934,2021-10-10,Discounted bps,Approved,Contract renewal concession,1344424.22,Revenue Management,2022-04-20
+E000174,P000941,2024-12-12,Waived monthly minimum,Pending,Contract renewal concession,667.95,Pricing Governance,2026-12-29
+E000175,P000951,2018-09-14,High-risk waiver,Approved,Risk-adjusted commercial exception,51612.04,Revenue Management,2019-03-26
+E000176,P000952,2020-01-04,Volume threshold waiver,Pending,Competitive displacement,95897.5,Risk Review,2021-01-14
+E000177,P000960,2023-04-28,Waived monthly minimum,Rejected,Strategic retention,11391.64,Revenue Management,2025-05-19
+E000178,P000961,2018-09-14,Waived monthly minimum,Approved,Competitive displacement,224794.23,Product Director,2019-10-13
+E000179,P000977,2022-10-07,Legacy plan extension,Pending,Strategic retention,2519.05,Product Director,2023-05-08
+E000180,P000980,2025-06-11,Volume threshold waiver,Approved,Competitive displacement,6284.01,Pricing Governance,2026-06-29
+E000181,P000990,2024-09-09,Discounted bps,Expired,Risk-adjusted commercial exception,8093.97,Pricing Governance,2025-09-16
+E000182,P001003,2024-03-11,Discounted bps,Approved,Contract renewal concession,2045.88,Revenue Management,2025-03-31
+E000183,P001010,2019-08-13,Discounted bps,Pending,Competitive displacement,112976.95,Pricing Governance,2020-03-04
+E000184,P001018,2023-11-29,Volume threshold waiver,Approved,Migration incentive,8551.3,Revenue Management,2024-12-05
+E000185,P001024,2025-07-03,Waived monthly minimum,Approved,New partner acquisition,30334.93,Product Director,2026-07-31
+E000186,P001033,2024-10-22,High-risk waiver,Expired,Strategic retention,519146.29,Risk Review,2025-10-29
+E000187,P001045,2018-03-29,Legacy plan extension,Approved,Strategic retention,3008.56,Revenue Management,2019-04-08
+E000188,P001048,2020-10-14,Legacy plan extension,Approved,Contract renewal concession,20183.88,Product Director,2021-10-24
+E000189,P001056,2022-04-30,Legacy plan extension,Approved,New partner acquisition,226914.37,Revenue Management,2024-05-04
+E000190,P001057,2020-09-11,Waived monthly minimum,Approved,Risk-adjusted commercial exception,6152.17,Pricing Governance,2021-10-11
+E000191,P001068,2021-12-16,Legacy plan extension,Approved,New partner acquisition,21012.76,Product Director,2022-12-28
+E000192,P001069,2019-01-04,Volume threshold waiver,Approved,Migration incentive,144714.7,Pricing Governance,2020-01-22
+E000193,P001081,2020-09-17,Waived monthly minimum,Pending,New partner acquisition,128267.16,Revenue Management,2021-04-07
+E000194,P001086,2019-07-12,Discounted bps,Rejected,Strategic retention,109435.68,Pricing Governance,2021-07-25
+E000195,P001094,2024-08-06,High-risk waiver,Approved,Migration incentive,24569.62,None,2025-09-09
+E000196,P001097,2020-01-06,Discounted bps,Pending,Migration incentive,2006934.55,None,2021-01-18
+E000197,P001101,2020-12-29,Discounted bps,Rejected,Risk-adjusted commercial exception,230851.18,Product Director,2022-01-11
+E000198,P001109,2023-03-09,Legacy plan extension,Approved,Competitive displacement,49584.59,Pricing Governance,2024-04-11
+E000199,P001114,2023-04-16,High-risk waiver,Expired,Competitive displacement,98970.65,Revenue Management,2024-05-05
+E000200,P001117,2024-06-05,Legacy plan extension,Rejected,Strategic retention,143288.1,Product Director,2025-06-12
+E000201,P001123,2023-11-08,Waived monthly minimum,Approved,Competitive displacement,17666.53,Pricing Governance,2024-11-20
+E000202,P001125,2023-07-15,Legacy plan extension,Approved,Migration incentive,189985.08,Pricing Governance,2024-08-08
+E000203,P001129,2020-02-04,High-risk waiver,Approved,New partner acquisition,85483.96,Risk Review,2021-02-14
+E000204,P001136,2018-01-09,Volume threshold waiver,Rejected,Strategic retention,1094353.06,Risk Review,2019-01-23
+E000205,P001139,2024-12-03,Volume threshold waiver,Expired,Competitive displacement,989359.3,Pricing Governance,2025-06-27
+E000206,P001142,2021-12-25,High-risk waiver,Approved,New partner acquisition,9118.32,Risk Review,2023-01-21
+E000207,P001144,2024-04-21,Legacy plan extension,Pending,Competitive displacement,226928.14,Revenue Management,2025-05-26
+E000208,P001154,2023-02-22,Waived monthly minimum,Rejected,Contract renewal concession,116761.74,Revenue Management,2025-03-15
+E000209,P001156,2020-01-20,Volume threshold waiver,Pending,Migration incentive,26702.74,Pricing Governance,2020-08-17
+E000210,P001157,2021-02-12,Legacy plan extension,Rejected,Competitive displacement,53360.13,Product Director,2022-02-22
+E000211,P001164,2020-08-03,Waived monthly minimum,Approved,Contract renewal concession,5683.53,Product Director,2022-08-28
+E000212,P001179,2021-01-13,Legacy plan extension,Approved,Contract renewal concession,2724.34,None,2022-02-02
+E000213,P001186,2020-10-04,Discounted bps,Approved,Risk-adjusted commercial exception,744323.99,None,2022-10-25
+E000214,P001187,2023-10-31,Waived monthly minimum,Approved,New partner acquisition,1325060.46,Product Director,2024-06-02
+E000215,P001191,2024-10-27,Discounted bps,Approved,New partner acquisition,173146.91,Pricing Governance,2025-11-25
+E000216,P001195,2018-12-29,Discounted bps,Pending,Contract renewal concession,102247.51,Product Director,2020-01-11
+E000217,P001196,2020-04-03,Legacy plan extension,Approved,Strategic retention,19866.63,Pricing Governance,2020-10-31
+E000218,P001205,2020-11-28,Waived monthly minimum,Pending,New partner acquisition,17356.14,Risk Review,2022-12-19
+E000219,P001209,2022-01-12,Discounted bps,Approved,Risk-adjusted commercial exception,1287.82,Pricing Governance,2024-01-25
+E000220,P001220,2023-08-17,Legacy plan extension,Pending,Competitive displacement,15451.53,Pricing Governance,2024-09-07
+E000221,P001233,2025-06-14,High-risk waiver,Approved,Strategic retention,285251.85,Pricing Governance,2026-06-19
+E000222,P001243,2023-06-04,Legacy plan extension,Approved,Competitive displacement,37689.73,Risk Review,2024-06-20
+E000223,P001250,2019-07-15,Waived monthly minimum,Approved,Contract renewal concession,33991.81,Revenue Management,2020-07-31
+E000224,P001252,2024-09-28,Volume threshold waiver,Approved,Risk-adjusted commercial exception,1151.52,Revenue Management,2025-04-17
+E000225,P001253,2019-10-08,Volume threshold waiver,Approved,Strategic retention,15168.36,Revenue Management,2021-10-31
+E000226,P001254,2018-01-13,Waived monthly minimum,Pending,Contract renewal concession,8874.05,Risk Review,2019-02-11
+E000227,P001263,2023-02-02,Discounted bps,Approved,Competitive displacement,119625.92,Risk Review,2023-08-08
+E000228,P001276,2019-08-07,Legacy plan extension,Pending,New partner acquisition,115597.74,Pricing Governance,2020-02-10
+E000229,P001283,2025-03-27,Waived monthly minimum,Expired,Strategic retention,101093.24,Pricing Governance,2026-04-24
+E000230,P001296,2024-09-13,High-risk waiver,Rejected,Contract renewal concession,15537.74,Risk Review,2025-09-23
+E000231,P001297,2024-09-23,Legacy plan extension,Pending,New partner acquisition,26373.8,Risk Review,2025-10-01
+E000232,P001304,2023-05-10,Volume threshold waiver,Approved,Migration incentive,11467.39,Product Director,2024-06-06
+E000233,P001308,2024-07-16,Volume threshold waiver,Approved,Contract renewal concession,18532.33,Pricing Governance,2025-02-16
+E000234,P001311,2025-07-07,Waived monthly minimum,Approved,New partner acquisition,27993.74,Risk Review,2026-08-01
+E000235,P001321,2024-02-21,Discounted bps,Approved,Risk-adjusted commercial exception,1121715.78,Product Director,2024-08-29
+E000236,P001329,2023-08-23,High-risk waiver,Expired,Strategic retention,158246.36,Pricing Governance,2024-09-17
+E000237,P001338,2020-01-23,Volume threshold waiver,Approved,Migration incentive,6696.37,Risk Review,2020-08-10
+E000238,P001339,2018-09-18,High-risk waiver,Approved,Contract renewal concession,29057.68,Revenue Management,2019-04-09
+E000239,P001343,2018-10-12,High-risk waiver,Approved,Contract renewal concession,17024.31,Pricing Governance,2019-10-26
+E000240,P001345,2024-05-28,Discounted bps,Approved,Contract renewal concession,1622.11,Product Director,2025-06-07
+E000241,P001347,2018-10-01,High-risk waiver,Pending,Competitive displacement,2168522.57,Revenue Management,2019-10-11
+E000242,P001352,2023-06-12,Waived monthly minimum,Approved,New partner acquisition,236570.46,Product Director,2024-07-02
+E000243,P001354,2023-09-17,High-risk waiver,Approved,Strategic retention,3430.19,Product Director,2024-10-11
+E000244,P001355,2023-09-27,Discounted bps,Approved,Contract renewal concession,14814.82,Pricing Governance,2024-10-08
+E000245,P001359,2018-10-27,Discounted bps,Approved,Competitive displacement,9222.59,Revenue Management,2019-11-21
+E000246,P001360,2024-02-17,Legacy plan extension,Rejected,Contract renewal concession,1655254.89,Revenue Management,2025-02-22
+E000247,P001367,2023-06-11,Legacy plan extension,Rejected,Competitive displacement,72180.43,Product Director,2024-06-19
+E000248,P001370,2023-12-19,High-risk waiver,Approved,Competitive displacement,174701.83,None,2025-01-04
+E000249,P001373,2024-10-26,Waived monthly minimum,Approved,Strategic retention,77468.14,Revenue Management,2025-11-28
+E000250,P001384,2020-07-11,Waived monthly minimum,Pending,Strategic retention,458684.07,None,2021-07-23
+E000251,P001387,2022-06-23,High-risk waiver,Approved,Strategic retention,1810.6,Product Director,2023-01-19
+E000252,P001389,2025-03-31,Waived monthly minimum,Rejected,Strategic retention,13276.29,Pricing Governance,2025-10-29
+E000253,P001394,2020-10-23,High-risk waiver,Expired,Migration incentive,571401.54,Product Director,2021-11-21
+E000254,P001396,2025-01-08,Volume threshold waiver,Approved,Competitive displacement,6713.2,Revenue Management,2026-02-05
+E000255,P001398,2021-11-20,Waived monthly minimum,Approved,Risk-adjusted commercial exception,1669.9,Revenue Management,2022-12-24
+E000256,P001399,2023-06-13,High-risk waiver,Pending,Risk-adjusted commercial exception,621309.93,Pricing Governance,2024-06-26
+E000257,P001400,2022-01-04,Volume threshold waiver,Pending,Strategic retention,301561.7,Pricing Governance,2023-02-07
+E000258,P001409,2021-04-24,Waived monthly minimum,Approved,Migration incentive,269653.31,Pricing Governance,2022-05-12
+E000259,P001411,2024-01-01,Waived monthly minimum,Pending,Competitive displacement,1863570.36,Risk Review,2026-01-30
+E000260,P001422,2018-02-04,Waived monthly minimum,Approved,Risk-adjusted commercial exception,16322080.53,Product Director,2018-09-01
+E000261,P001436,2021-05-16,Waived monthly minimum,Approved,Strategic retention,418304.63,Risk Review,2023-05-26
+E000262,P001450,2025-03-02,Discounted bps,Approved,Contract renewal concession,525727.43,Revenue Management,2027-03-30
+E000263,P001453,2019-07-23,Discounted bps,Approved,Strategic retention,6260.92,Product Director,2020-02-01
+E000264,P001455,2023-12-02,High-risk waiver,Expired,Contract renewal concession,59671.6,Revenue Management,2024-12-10
+E000265,P001456,2025-03-21,Legacy plan extension,Approved,Migration incentive,17601.78,Product Director,2026-04-14
+E000266,P001460,2019-03-12,High-risk waiver,Approved,Strategic retention,5466.52,Product Director,2020-03-31
+E000267,P001468,2023-07-30,High-risk waiver,Approved,Contract renewal concession,254571.64,Pricing Governance,2024-02-25
+E000268,P001471,2023-08-27,Legacy plan extension,Approved,Competitive displacement,42113.22,Risk Review,2024-09-06
+E000269,P001481,2025-04-20,Legacy plan extension,Approved,Contract renewal concession,63937.57,Pricing Governance,2026-05-22
+E000270,P001492,2018-07-07,Waived monthly minimum,Approved,Contract renewal concession,30348.86,Revenue Management,2019-08-08
+E000271,P001494,2023-12-24,Legacy plan extension,Pending,Strategic retention,71023.84,None,2024-07-02
+E000272,P001502,2024-01-30,Legacy plan extension,Approved,Migration incentive,667429.71,Pricing Governance,2025-02-25
+E000273,P001509,2025-05-21,Waived monthly minimum,Approved,New partner acquisition,52035.23,Revenue Management,2026-06-09
+E000274,P001513,2023-04-20,Discounted bps,Approved,New partner acquisition,223718.78,Revenue Management,2023-11-17
+E000275,P001524,2025-08-07,High-risk waiver,Pending,Competitive displacement,494014.1,Revenue Management,2027-08-19
+E000276,P001537,2018-01-28,Legacy plan extension,Approved,New partner acquisition,8987.63,Product Director,2019-02-05
+E000277,P001540,2025-02-28,Volume threshold waiver,Approved,Strategic retention,16436.84,None,2025-09-18
+E000278,P001542,2018-07-22,Waived monthly minimum,Expired,Strategic retention,13310.31,Revenue Management,2019-08-20
+E000279,P001569,2022-07-14,High-risk waiver,Pending,Strategic retention,8028.81,Pricing Governance,2024-08-04
+E000280,P001579,2020-12-22,Waived monthly minimum,Expired,Strategic retention,1464.07,Pricing Governance,2023-01-08
+E000281,P001581,2022-10-29,Waived monthly minimum,Approved,Competitive displacement,15395.27,Product Director,2023-05-19
+E000282,P001585,2020-04-09,High-risk waiver,Approved,New partner acquisition,3517.38,Revenue Management,2020-10-24
+E000283,P001596,2024-07-06,Waived monthly minimum,Expired,Strategic retention,10147.29,Pricing Governance,2025-02-06
+E000284,P001597,2020-12-23,Volume threshold waiver,Expired,Migration incentive,1569.75,Pricing Governance,2021-07-09
+E000285,P001600,2021-04-05,High-risk waiver,Pending,Competitive displacement,22663.8,Product Director,2022-05-03
+E000286,P001613,2025-03-06,Discounted bps,Approved,Strategic retention,19939.77,Product Director,2026-03-21
+E000287,P001615,2022-04-15,Legacy plan extension,Approved,Strategic retention,824336.61,Revenue Management,2022-11-16
+E000288,P001622,2023-11-17,Waived monthly minimum,Approved,Competitive displacement,419997.75,Pricing Governance,2024-06-07
+E000289,P001625,2024-06-21,Waived monthly minimum,Pending,Risk-adjusted commercial exception,703219.82,Product Director,2026-07-23
+E000290,P001631,2019-05-08,Legacy plan extension,Approved,Risk-adjusted commercial exception,38050.67,Pricing Governance,2020-05-16
+E000291,P001633,2020-01-15,Discounted bps,Approved,Contract renewal concession,43302.46,Revenue Management,2021-01-25
+E000292,P001637,2020-02-11,Legacy plan extension,Approved,Competitive displacement,41916.94,Pricing Governance,2021-03-06
+E000293,P001638,2023-10-23,Waived monthly minimum,Expired,New partner acquisition,3110.44,Pricing Governance,2025-11-23
+E000294,P001642,2018-12-26,High-risk waiver,Pending,Risk-adjusted commercial exception,191403.95,Revenue Management,2019-07-26
+E000295,P001644,2021-09-05,Discounted bps,Pending,Strategic retention,536.47,Pricing Governance,2022-03-13
+E000296,P001649,2023-09-09,Waived monthly minimum,Pending,Contract renewal concession,1236103.46,Pricing Governance,2024-04-04
+E000297,P001653,2024-02-10,Waived monthly minimum,Approved,New partner acquisition,8990.32,Pricing Governance,2026-03-12
+E000298,P001657,2023-08-16,Waived monthly minimum,Approved,New partner acquisition,17202.36,Pricing Governance,2024-08-25
+E000299,P001664,2024-10-09,Waived monthly minimum,Approved,Migration incentive,7287.98,Product Director,2025-04-14
+E000300,P001670,2024-02-11,High-risk waiver,Pending,New partner acquisition,111253.96,Risk Review,2025-02-24
+E000301,P001688,2025-04-12,Legacy plan extension,Expired,Risk-adjusted commercial exception,24694.95,Pricing Governance,2026-04-27
+E000302,P001692,2023-07-23,Volume threshold waiver,Approved,Risk-adjusted commercial exception,63413.04,Product Director,2024-02-12
+E000303,P001694,2022-04-25,Discounted bps,Approved,Competitive displacement,3176.52,Product Director,2023-05-11
+E000304,P001695,2021-04-13,Discounted bps,Expired,Migration incentive,50944.43,Revenue Management,2022-05-03
+E000305,P001710,2023-06-27,Waived monthly minimum,Pending,Migration incentive,851.27,Product Director,2024-07-14
+E000306,P001712,2022-02-25,Legacy plan extension,Approved,Competitive displacement,24600.3,Pricing Governance,2024-03-01
+E000307,P001713,2025-05-07,Legacy plan extension,Approved,Migration incentive,96027.92,Risk Review,2026-05-28
+E000308,P001714,2024-06-02,High-risk waiver,Expired,Competitive displacement,157766.92,None,2025-07-01
+E000309,P001721,2021-02-20,Waived monthly minimum,Approved,Contract renewal concession,112446.42,None,2022-02-27
+E000310,P001723,2021-11-09,Discounted bps,Pending,Competitive displacement,917.0,None,2022-11-22
+E000311,P001743,2023-06-21,High-risk waiver,Approved,Competitive displacement,1468.87,Revenue Management,2024-07-14
+E000312,P001747,2025-06-11,Discounted bps,Approved,Migration incentive,398939.93,Pricing Governance,2026-07-14
+E000313,P001768,2024-06-09,Legacy plan extension,Approved,Competitive displacement,4543.41,Product Director,2026-06-18
+E000314,P001770,2022-08-28,Discounted bps,Approved,Competitive displacement,176916.81,Risk Review,2023-09-19
+E000315,P001776,2023-07-19,High-risk waiver,Pending,Risk-adjusted commercial exception,155328.28,Revenue Management,2024-01-22
+E000316,P001779,2022-02-07,Volume threshold waiver,Approved,Contract renewal concession,3603.57,Product Director,2022-09-06
+E000317,P001781,2018-07-07,Waived monthly minimum,Approved,Contract renewal concession,1523.24,Pricing Governance,2020-07-12
+E000318,P001784,2025-03-09,Volume threshold waiver,Approved,Migration incentive,182812.07,Revenue Management,2026-03-17
+E000319,P001788,2018-03-06,Waived monthly minimum,Pending,Strategic retention,17007.42,Risk Review,2020-04-06
+E000320,P001795,2021-02-07,Volume threshold waiver,Rejected,Strategic retention,243100.58,Risk Review,2022-02-27
+E000321,P001796,2024-12-19,Volume threshold waiver,Approved,Risk-adjusted commercial exception,1587435.72,Pricing Governance,2025-12-24
+E000322,P001806,2025-05-22,Legacy plan extension,Pending,Migration incentive,8915.23,Revenue Management,2025-12-23
+E000323,P001808,2025-05-08,Discounted bps,Rejected,Competitive displacement,79401.47,Revenue Management,2026-06-03
+E000324,P001812,2024-03-17,High-risk waiver,Expired,New partner acquisition,157153.95,Pricing Governance,2026-04-12
+E000325,P001820,2023-12-29,Waived monthly minimum,Approved,Strategic retention,1762.53,Product Director,2025-01-08
+E000326,P001825,2025-03-17,Legacy plan extension,Approved,Migration incentive,70356.86,Revenue Management,2026-04-19
+E000327,P001828,2023-11-04,Volume threshold waiver,Approved,Competitive displacement,1515.7,Revenue Management,2024-11-12
+E000328,P001830,2025-08-14,High-risk waiver,Approved,Competitive displacement,24572.81,Risk Review,2026-08-25
+E000329,P001841,2022-10-14,High-risk waiver,Approved,Risk-adjusted commercial exception,35070.42,Pricing Governance,2023-05-02
+E000330,P001844,2018-12-07,Legacy plan extension,Approved,Contract renewal concession,6114.61,Revenue Management,2019-06-30
+E000331,P001853,2019-03-13,Volume threshold waiver,Approved,New partner acquisition,23165.14,Revenue Management,2019-10-10
+E000332,P001857,2025-07-16,Waived monthly minimum,Expired,Migration incentive,496391.62,Revenue Management,2026-08-20
+E000333,P001859,2018-02-27,High-risk waiver,Expired,Migration incentive,71750.6,Pricing Governance,2019-03-22
+E000334,P001863,2023-11-13,Legacy plan extension,Expired,Risk-adjusted commercial exception,25011.52,Product Director,2024-12-13
+E000335,P001864,2025-06-19,Volume threshold waiver,Expired,Contract renewal concession,929996.25,Pricing Governance,2026-07-23
+E000336,P001866,2020-11-07,High-risk waiver,Pending,Migration incentive,14197.39,Pricing Governance,2021-05-18
+E000337,P001871,2024-11-29,Waived monthly minimum,Approved,New partner acquisition,51112.85,Pricing Governance,2026-12-13
+E000338,P001877,2024-03-27,High-risk waiver,Approved,New partner acquisition,3251056.52,Revenue Management,2024-09-28
+E000339,P001895,2023-08-05,Discounted bps,Approved,New partner acquisition,4289.79,Risk Review,2024-08-23
+E000340,P001896,2018-11-21,Discounted bps,Pending,Risk-adjusted commercial exception,26154.21,Product Director,2019-11-30
+E000341,P001898,2025-07-02,Volume threshold waiver,Expired,Competitive displacement,702.86,Revenue Management,2026-07-28
+E000342,P001899,2023-12-01,High-risk waiver,Approved,Strategic retention,119416.34,Product Director,2024-12-20
+E000343,P001902,2023-10-05,High-risk waiver,Approved,New partner acquisition,18187.12,Product Director,2024-10-25
+E000344,P001903,2023-09-18,Discounted bps,Pending,Competitive displacement,10129.61,Product Director,2024-04-02
+E000345,P001907,2020-05-28,Discounted bps,Approved,New partner acquisition,74337.94,None,2020-12-25
+E000346,P001909,2023-04-15,Discounted bps,Approved,Competitive displacement,236723.29,Product Director,2023-11-12
+E000347,P001915,2021-01-13,High-risk waiver,Approved,Contract renewal concession,9262.38,Pricing Governance,2021-07-20
+E000348,P001916,2023-01-29,Volume threshold waiver,Approved,Risk-adjusted commercial exception,231.17,Pricing Governance,2024-02-07
+E000349,P001923,2018-09-07,Volume threshold waiver,Pending,Migration incentive,95470.1,Product Director,2019-03-16
+E000350,P001925,2019-01-29,Discounted bps,Pending,New partner acquisition,52863.36,Revenue Management,2020-03-03
+E000351,P001929,2025-06-09,Volume threshold waiver,Expired,Strategic retention,16194.34,Pricing Governance,2026-01-07
+E000352,P001932,2024-07-09,Discounted bps,Approved,Contract renewal concession,25042.85,Pricing Governance,2025-07-27
+E000353,P001938,2024-11-25,Waived monthly minimum,Approved,Competitive displacement,979109.91,Product Director,2025-12-04
+E000354,P001940,2025-05-11,Volume threshold waiver,Approved,Strategic retention,9631.92,Pricing Governance,2025-11-21
+E000355,P001945,2020-04-21,Waived monthly minimum,Approved,Migration incentive,48763.4,Product Director,2021-05-05
+E000356,P001951,2019-06-12,Waived monthly minimum,Approved,Migration incentive,50031.97,Revenue Management,2020-07-16
+E000357,P001955,2023-01-01,Legacy plan extension,Approved,Risk-adjusted commercial exception,108989.25,Pricing Governance,2023-07-05
+E000358,P001960,2025-03-29,Volume threshold waiver,Approved,Competitive displacement,749238.52,Revenue Management,2025-10-10
+E000359,P001964,2024-04-02,Discounted bps,Approved,Strategic retention,14402.17,Product Director,2024-10-04
+E000360,P001977,2019-09-01,Volume threshold waiver,Approved,Migration incentive,112476.7,Pricing Governance,2021-09-10
+E000361,P001978,2018-09-08,Legacy plan extension,Approved,Risk-adjusted commercial exception,6629.77,Risk Review,2019-09-13
+E000362,P001980,2023-12-04,Discounted bps,Approved,Migration incentive,28152.08,Risk Review,2024-06-13
+E000363,P001989,2024-08-29,Discounted bps,Pending,Strategic retention,108424.27,Product Director,2025-09-03
+E000364,P001997,2024-02-17,Waived monthly minimum,Approved,New partner acquisition,44748.85,None,2025-03-06
+E000365,P001998,2020-11-19,Waived monthly minimum,Approved,Contract renewal concession,200571.97,Risk Review,2021-11-24
+E000366,P001999,2025-02-19,High-risk waiver,Approved,Risk-adjusted commercial exception,38337.92,None,2026-03-26
+E000367,P002000,2023-06-03,Discounted bps,Approved,Risk-adjusted commercial exception,12735.59,Revenue Management,2024-07-03
+E000368,P002004,2025-06-07,Volume threshold waiver,Pending,Risk-adjusted commercial exception,2129.66,Pricing Governance,2026-07-05
+E000369,P002007,2023-10-29,Waived monthly minimum,Approved,New partner acquisition,10076.86,Revenue Management,2024-11-25
+E000370,P002010,2018-07-22,Volume threshold waiver,Approved,Migration incentive,10809062.31,Product Director,2019-08-16
+E000371,P002019,2021-11-18,Volume threshold waiver,Approved,Competitive displacement,909842.37,Revenue Management,2022-12-06
+E000372,P002028,2021-07-17,Waived monthly minimum,Approved,Contract renewal concession,1046706.47,Revenue Management,2022-08-08
+E000373,P002032,2024-09-03,High-risk waiver,Approved,Migration incentive,313489.99,Product Director,2025-09-22
+E000374,P002053,2020-06-23,Waived monthly minimum,Approved,Migration incentive,460238.24,Product Director,2021-07-20
+E000375,P002059,2025-01-11,Waived monthly minimum,Expired,Strategic retention,32119.95,Product Director,2026-02-02
+E000376,P002060,2023-07-23,High-risk waiver,Approved,Migration incentive,33536.07,Revenue Management,2025-08-06
+E000377,P002064,2023-11-29,High-risk waiver,Expired,Contract renewal concession,4404.36,Pricing Governance,2024-12-17
+E000378,P002065,2020-02-04,Volume threshold waiver,Pending,Risk-adjusted commercial exception,35050.72,Pricing Governance,2022-02-15
+E000379,P002069,2020-06-19,Discounted bps,Approved,Strategic retention,6706.22,Revenue Management,2021-07-15
+E000380,P002074,2023-05-12,Waived monthly minimum,Approved,Competitive displacement,6278.16,Pricing Governance,2024-05-22
+E000381,P002083,2018-10-26,High-risk waiver,Expired,New partner acquisition,20341.48,Risk Review,2019-11-23
+E000382,P002087,2023-04-09,Waived monthly minimum,Approved,Contract renewal concession,18919.54,Risk Review,2023-10-18
+E000383,P002091,2023-10-19,High-risk waiver,Rejected,Strategic retention,114693.48,Product Director,2025-10-28
+E000384,P002092,2025-06-19,Discounted bps,Approved,Contract renewal concession,62997.03,Risk Review,2026-07-18
+E000385,P002097,2024-01-30,High-risk waiver,Pending,Risk-adjusted commercial exception,192703.73,None,2025-02-10
+E000386,P002098,2022-11-14,Volume threshold waiver,Expired,Strategic retention,71195.12,Risk Review,2023-11-29
+E000387,P002102,2024-05-25,Volume threshold waiver,Approved,Risk-adjusted commercial exception,108962.09,Pricing Governance,2025-06-19
+E000388,P002104,2023-12-13,Legacy plan extension,Expired,Competitive displacement,150928.06,Revenue Management,2025-01-11
+E000389,P002106,2025-05-06,Legacy plan extension,Approved,Risk-adjusted commercial exception,40329.87,Product Director,2026-05-26
+E000390,P002107,2023-06-01,High-risk waiver,Pending,Migration incentive,535867.44,Revenue Management,2025-06-17
+E000391,P002111,2024-08-18,Volume threshold waiver,Approved,Competitive displacement,2244.7,Revenue Management,2025-09-09
+E000392,P002112,2023-07-15,Waived monthly minimum,Rejected,New partner acquisition,46758.14,Revenue Management,2024-08-16
+E000393,P002118,2025-01-11,Legacy plan extension,Approved,New partner acquisition,4941.97,Revenue Management,2025-08-07
+E000394,P002119,2023-03-12,Waived monthly minimum,Pending,New partner acquisition,42132.61,Risk Review,2024-03-22
+E000395,P002137,2025-08-15,High-risk waiver,Pending,Migration incentive,8556.65,None,2026-08-22
+E000396,P002149,2021-02-17,Volume threshold waiver,Pending,Risk-adjusted commercial exception,58835.57,Product Director,2022-03-13
+E000397,P002162,2018-03-29,Discounted bps,Pending,New partner acquisition,8953.48,Revenue Management,2019-04-15
+E000398,P002177,2022-01-18,Waived monthly minimum,Rejected,Competitive displacement,754.49,Pricing Governance,2023-02-04
+E000399,P002193,2023-03-20,High-risk waiver,Pending,Risk-adjusted commercial exception,4042.91,Pricing Governance,2024-04-05
+E000400,P002214,2019-09-06,Volume threshold waiver,Approved,Migration incentive,2672.64,Risk Review,2020-09-13
+E000401,P002222,2022-02-25,High-risk waiver,Approved,New partner acquisition,51208.11,Revenue Management,2024-03-17
+E000402,P002225,2018-04-03,Waived monthly minimum,Approved,Strategic retention,436.14,Pricing Governance,2018-10-29
+E000403,P002229,2024-07-12,Volume threshold waiver,Rejected,Contract renewal concession,148322.25,Pricing Governance,2025-07-27
+E000404,P002241,2020-08-13,Discounted bps,Expired,Risk-adjusted commercial exception,2975.05,None,2022-08-30
+E000405,P002253,2025-05-18,Volume threshold waiver,Approved,New partner acquisition,42649.27,Pricing Governance,2027-06-01
+E000406,P002264,2024-06-02,Legacy plan extension,Approved,Competitive displacement,1344.67,Product Director,2025-06-20
+E000407,P002265,2018-04-16,Discounted bps,Approved,Risk-adjusted commercial exception,33850.09,Pricing Governance,2018-10-22
+E000408,P002272,2024-04-20,Legacy plan extension,Approved,Migration incentive,6312624.09,Revenue Management,2025-05-02
+E000409,P002278,2025-05-06,Discounted bps,Approved,New partner acquisition,254341.96,Pricing Governance,2025-11-24
+E000410,P002284,2024-09-21,Waived monthly minimum,Pending,Strategic retention,19763.05,Revenue Management,2025-10-16
+E000411,P002287,2018-01-15,Volume threshold waiver,Pending,Contract renewal concession,15476.46,Pricing Governance,2019-02-03
+E000412,P002290,2018-01-16,Legacy plan extension,Expired,Contract renewal concession,7494.48,Revenue Management,2018-07-28
+E000413,P002292,2024-02-04,High-risk waiver,Approved,Migration incentive,1189772.91,None,2025-02-28
+E000414,P002293,2020-05-28,Waived monthly minimum,Approved,Contract renewal concession,5344.22,Pricing Governance,2020-11-29
+E000415,P002297,2024-08-30,High-risk waiver,Approved,Migration incentive,50393.86,Pricing Governance,2025-09-28
+E000416,P002299,2025-02-20,Waived monthly minimum,Approved,Migration incentive,17086.01,Pricing Governance,2027-02-27
+E000417,P002306,2023-10-09,Waived monthly minimum,Rejected,Strategic retention,9788.72,Revenue Management,2024-11-01
+E000418,P002307,2025-01-03,Volume threshold waiver,Approved,Contract renewal concession,27977.23,Revenue Management,2026-01-27
+E000419,P002312,2018-06-08,Waived monthly minimum,Approved,Competitive displacement,77923.79,Risk Review,2019-06-24
+E000420,P002322,2022-12-02,Waived monthly minimum,Pending,Contract renewal concession,12216.45,Pricing Governance,2023-06-09
+E000421,P002323,2020-04-08,Legacy plan extension,Pending,Migration incentive,6251.53,Revenue Management,2021-05-03
+E000422,P002324,2018-12-12,Volume threshold waiver,Approved,Risk-adjusted commercial exception,2062.57,Product Director,2019-12-21
+E000423,P002329,2020-05-29,Discounted bps,Approved,Strategic retention,6860.21,Pricing Governance,2021-07-01
+E000424,P002334,2024-09-23,Legacy plan extension,Approved,Migration incentive,1423.25,Product Director,2025-10-27
+E000425,P002347,2018-02-09,High-risk waiver,Approved,Contract renewal concession,141149.43,Product Director,2018-08-20
+E000426,P002363,2023-09-04,Legacy plan extension,Approved,Risk-adjusted commercial exception,30228.55,Product Director,2024-09-11
+E000427,P002365,2025-07-07,Discounted bps,Approved,Risk-adjusted commercial exception,9810.42,Revenue Management,2026-02-04
+E000428,P002380,2023-08-03,Legacy plan extension,Approved,Contract renewal concession,30565.27,Pricing Governance,2024-02-09
+E000429,P002405,2024-08-10,Volume threshold waiver,Approved,New partner acquisition,48622.44,Revenue Management,2025-02-14
+E000430,P002413,2024-10-31,Waived monthly minimum,Approved,Strategic retention,7778.67,Product Director,2025-11-29
+E000431,P002416,2020-08-27,Volume threshold waiver,Pending,Migration incentive,22686.37,Pricing Governance,2021-09-23
+E000432,P002417,2022-07-29,High-risk waiver,Approved,Strategic retention,7089.04,Risk Review,2023-08-21
+E000433,P002429,2018-01-08,Waived monthly minimum,Expired,Risk-adjusted commercial exception,4918703.1,Pricing Governance,2020-02-03
+E000434,P002432,2018-07-14,Discounted bps,Rejected,Strategic retention,236024.8,Revenue Management,2019-07-23
+E000435,P002439,2023-06-13,Discounted bps,Approved,Competitive displacement,597688.63,Product Director,2024-07-09
+E000436,P002441,2024-06-30,Discounted bps,Approved,Strategic retention,25176.25,Pricing Governance,2025-07-28
+E000437,P002459,2024-02-06,Legacy plan extension,Approved,Strategic retention,18783.4,Pricing Governance,2025-03-08
+E000438,P002462,2025-03-13,Volume threshold waiver,Approved,Risk-adjusted commercial exception,1193173.81,Risk Review,2026-04-12
+E000439,P002467,2018-01-29,High-risk waiver,Approved,Strategic retention,19789.19,Revenue Management,2019-02-08
+E000440,P002469,2018-07-25,Legacy plan extension,Approved,New partner acquisition,1942819.3,Product Director,2019-08-20
+E000441,P002474,2024-03-29,Volume threshold waiver,Pending,Competitive displacement,15430.24,Revenue Management,2025-05-02
+E000442,P002477,2021-11-04,High-risk waiver,Approved,Strategic retention,13897.39,Pricing Governance,2022-11-22
+E000443,P002480,2021-07-26,Waived monthly minimum,Pending,New partner acquisition,42643.71,Risk Review,2022-08-14
+E000444,P002489,2023-04-09,High-risk waiver,Rejected,Competitive displacement,288442.33,Product Director,2025-04-25
+E000445,P002494,2019-09-10,Legacy plan extension,Approved,Strategic retention,42478.38,Revenue Management,2021-09-27
+E000446,P002495,2024-03-19,High-risk waiver,Pending,Strategic retention,19956.85,Product Director,2025-03-28
+E000447,P002508,2025-06-26,Volume threshold waiver,Approved,New partner acquisition,6251.15,Pricing Governance,2027-07-05
+E000448,P002515,2025-08-09,Discounted bps,Approved,Contract renewal concession,265167.58,Revenue Management,2026-08-17
+E000449,P002517,2025-04-03,Discounted bps,Approved,Strategic retention,14168.78,Pricing Governance,2025-10-31
+E000450,P002538,2024-03-04,High-risk waiver,Rejected,Contract renewal concession,168013.81,Pricing Governance,2025-04-08
+E000451,P002540,2018-05-07,Volume threshold waiver,Expired,Competitive displacement,53155.91,Pricing Governance,2020-05-30
+E000452,P002550,2023-08-23,High-risk waiver,Expired,Risk-adjusted commercial exception,195117.99,Pricing Governance,2024-03-24
+E000453,P002551,2023-12-16,Legacy plan extension,Approved,Migration incentive,169.31,Pricing Governance,2026-01-10
+E000454,P002562,2025-05-04,Discounted bps,Approved,New partner acquisition,83160.83,Product Director,2025-11-09
+E000455,P002567,2019-06-23,Discounted bps,Approved,Contract renewal concession,24260.46,Pricing Governance,2019-12-28
+E000456,P002581,2021-03-29,Legacy plan extension,Approved,Contract renewal concession,19304.46,Pricing Governance,2021-10-06
+E000457,P002586,2018-11-24,Legacy plan extension,Rejected,New partner acquisition,666.64,Product Director,2019-12-11
+E000458,P002600,2018-02-07,High-risk waiver,Expired,Migration incentive,96650.38,Revenue Management,2019-02-26
+E000459,P002601,2024-07-02,Waived monthly minimum,Approved,Risk-adjusted commercial exception,229481.02,Product Director,2025-07-09
+E000460,P002604,2023-06-20,Discounted bps,Approved,Risk-adjusted commercial exception,19129.48,Revenue Management,2024-01-10
+E000461,P002605,2023-12-08,Discounted bps,Approved,New partner acquisition,31240.2,Revenue Management,2025-01-11
+E000462,P002606,2022-12-04,Volume threshold waiver,Pending,Competitive displacement,67380.43,Pricing Governance,2024-01-07
+E000463,P002607,2018-09-12,Volume threshold waiver,Approved,Migration incentive,288069.5,Revenue Management,2019-09-20
+E000464,P002611,2020-12-15,Volume threshold waiver,Approved,Risk-adjusted commercial exception,165423.38,Product Director,2021-07-18
+E000465,P002620,2019-08-27,Waived monthly minimum,Approved,Risk-adjusted commercial exception,31822.11,Revenue Management,2020-09-29
+E000466,P002623,2023-09-12,Discounted bps,Approved,Risk-adjusted commercial exception,288574.78,Revenue Management,2024-03-17
+E000467,P002626,2025-06-29,Legacy plan extension,Expired,Strategic retention,18881.04,Product Director,2026-07-13
+E000468,P002633,2024-10-10,Legacy plan extension,Pending,Strategic retention,405301.53,Revenue Management,2025-05-06
+E000469,P002646,2024-11-19,Discounted bps,Approved,Migration incentive,60292.32,Risk Review,2025-12-10
+E000470,P002647,2024-11-22,Discounted bps,Approved,New partner acquisition,180074.82,Product Director,2025-12-04
+E000471,P002654,2024-01-28,High-risk waiver,Approved,Contract renewal concession,1255746.21,Risk Review,2025-02-22
+E000472,P002661,2025-06-12,Discounted bps,Approved,Competitive displacement,17226.5,None,2026-01-08
+E000473,P002663,2019-04-17,Waived monthly minimum,Approved,New partner acquisition,6959.27,Revenue Management,2020-05-15
+E000474,P002671,2021-08-05,Waived monthly minimum,Expired,Risk-adjusted commercial exception,9613.66,Revenue Management,2022-02-08
+E000475,P002678,2023-08-12,Discounted bps,Rejected,Contract renewal concession,64624.49,Pricing Governance,2024-03-01
+E000476,P002681,2024-06-15,Discounted bps,Rejected,New partner acquisition,4919.45,Revenue Management,2025-01-15
+E000477,P002683,2023-10-24,High-risk waiver,Approved,Competitive displacement,57837.42,Revenue Management,2024-11-03
+E000478,P002685,2017-12-19,High-risk waiver,Pending,Risk-adjusted commercial exception,23792.71,Pricing Governance,2020-01-07
+E000479,P002686,2019-07-31,High-risk waiver,Pending,Risk-adjusted commercial exception,235581.01,Pricing Governance,2020-02-19
+E000480,P002699,2022-11-27,Volume threshold waiver,Pending,Strategic retention,2630.76,Revenue Management,2023-12-02
+E000481,P002704,2022-03-15,Volume threshold waiver,Rejected,Contract renewal concession,76240.41,Revenue Management,2023-03-23
+E000482,P002705,2020-12-05,Legacy plan extension,Approved,Strategic retention,101532.71,Revenue Management,2021-06-25
+E000483,P002706,2022-11-13,Waived monthly minimum,Approved,Risk-adjusted commercial exception,85783.81,Revenue Management,2023-12-03
+E000484,P002707,2023-03-02,Legacy plan extension,Pending,Risk-adjusted commercial exception,21103.64,Product Director,2023-10-01
+E000485,P002711,2025-05-12,Volume threshold waiver,Approved,Competitive displacement,79745.84,Pricing Governance,2026-06-05
+E000486,P002718,2021-03-05,Discounted bps,Expired,Strategic retention,4651.49,Pricing Governance,2022-03-14
+E000487,P002720,2019-07-05,Legacy plan extension,Pending,New partner acquisition,774822.99,Pricing Governance,2020-07-10
+E000488,P002734,2025-07-03,High-risk waiver,Approved,Competitive displacement,24508.92,Pricing Governance,2026-01-18
+E000489,P002735,2019-04-06,High-risk waiver,Expired,New partner acquisition,55908.66,None,2020-05-10
+E000490,P002737,2020-11-20,Legacy plan extension,Pending,Strategic retention,4253.14,Revenue Management,2021-11-28
+E000491,P002754,2021-01-20,Legacy plan extension,Approved,New partner acquisition,137.48,Pricing Governance,2022-02-13
+E000492,P002757,2024-03-02,Discounted bps,Approved,Risk-adjusted commercial exception,260645.01,Pricing Governance,2025-04-05
+E000493,P002759,2023-12-31,Volume threshold waiver,Expired,Competitive displacement,9367.08,Product Director,2025-01-24
+E000494,P002760,2018-03-30,Volume threshold waiver,Approved,Contract renewal concession,710814.83,Revenue Management,2019-04-25
+E000495,P002762,2024-03-26,Waived monthly minimum,Approved,Contract renewal concession,400867.11,Revenue Management,2024-10-08
+E000496,P002769,2023-02-22,Discounted bps,Approved,Risk-adjusted commercial exception,943401.46,Revenue Management,2025-03-23
+E000497,P002773,2025-07-10,Legacy plan extension,Expired,Contract renewal concession,646891.44,Pricing Governance,2026-01-26
+E000498,P002779,2025-04-12,Discounted bps,Approved,Risk-adjusted commercial exception,86171.61,Revenue Management,2026-05-01
+E000499,P002781,2023-12-11,Discounted bps,Rejected,Risk-adjusted commercial exception,20955.36,Pricing Governance,2024-12-22
+E000500,P002782,2021-09-20,Volume threshold waiver,Approved,New partner acquisition,9541.53,Pricing Governance,2022-04-12
+E000501,P002783,2025-06-02,High-risk waiver,Approved,New partner acquisition,15106.59,Pricing Governance,2026-06-25
+E000502,P002791,2024-10-10,Volume threshold waiver,Pending,Strategic retention,22073.6,Pricing Governance,2025-11-04
+E000503,P002798,2020-03-21,Waived monthly minimum,Approved,Strategic retention,12604.06,Product Director,2021-04-13
+E000504,P002802,2019-06-27,Discounted bps,Approved,Contract renewal concession,18235.6,Pricing Governance,2020-07-25
+E000505,P002805,2018-11-24,Volume threshold waiver,Approved,Competitive displacement,3156.92,Revenue Management,2020-12-18
+E000506,P002811,2023-07-12,Legacy plan extension,Approved,Contract renewal concession,65246.35,Risk Review,2024-01-31
+E000507,P002816,2023-11-04,Legacy plan extension,Approved,New partner acquisition,21169.26,Pricing Governance,2024-05-28
+E000508,P002818,2021-05-17,High-risk waiver,Approved,Strategic retention,131606.94,Pricing Governance,2022-05-26
+E000509,P002841,2023-02-10,Waived monthly minimum,Approved,Strategic retention,37887.75,Risk Review,2024-03-09
+E000510,P002845,2018-01-10,Waived monthly minimum,Pending,Strategic retention,18742.89,Revenue Management,2019-02-11
+E000511,P002846,2024-08-31,Discounted bps,Approved,Risk-adjusted commercial exception,1140.02,Revenue Management,2025-09-10
+E000512,P002861,2022-06-12,Volume threshold waiver,Approved,Migration incentive,68235.78,Product Director,2022-12-29
+E000513,P002869,2024-08-28,Volume threshold waiver,Approved,New partner acquisition,17198.56,Pricing Governance,2025-09-03
+E000514,P002871,2023-10-23,Volume threshold waiver,Pending,Contract renewal concession,91275.24,Product Director,2024-10-29
+E000515,P002874,2021-01-06,Volume threshold waiver,Pending,Competitive displacement,59313.95,Pricing Governance,2022-01-24
+E000516,P002885,2021-07-05,Legacy plan extension,Approved,Contract renewal concession,15508.36,Risk Review,2022-02-04
+E000517,P002886,2024-12-24,Volume threshold waiver,Approved,Risk-adjusted commercial exception,24131.21,Product Director,2026-01-18
+E000518,P002887,2021-08-13,High-risk waiver,Approved,Strategic retention,11816.3,Pricing Governance,2023-08-25
+E000519,P002892,2024-06-01,Legacy plan extension,Approved,Contract renewal concession,1265170.35,Pricing Governance,2025-06-11
+E000520,P002893,2023-12-19,Discounted bps,Approved,Risk-adjusted commercial exception,8487.41,Product Director,2025-01-18
+E000521,P002936,2022-11-28,High-risk waiver,Pending,Strategic retention,1112.42,Pricing Governance,2023-12-13
+E000522,P002938,2023-02-08,Waived monthly minimum,Approved,Migration incentive,10344.43,Revenue Management,2023-08-26
+E000523,P002947,2023-07-15,Legacy plan extension,Expired,New partner acquisition,219650.77,Pricing Governance,2024-07-20
+E000524,P002949,2023-09-21,High-risk waiver,Expired,Risk-adjusted commercial exception,131180.86,Product Director,2024-10-17
+E000525,P002962,2020-01-30,Legacy plan extension,Approved,New partner acquisition,49475.92,Revenue Management,2022-02-10
+E000526,P002965,2023-11-22,Discounted bps,Approved,Migration incentive,136203.61,Risk Review,2024-12-06
+E000527,P002972,2024-07-10,Legacy plan extension,Pending,Risk-adjusted commercial exception,40703.72,Revenue Management,2025-02-09
+E000528,P002979,2018-12-27,Legacy plan extension,Approved,Competitive displacement,10201.51,Risk Review,2021-01-28
+E000529,P002984,2018-01-08,Volume threshold waiver,Expired,Strategic retention,214186.22,Risk Review,2019-01-19
+E000530,P002985,2025-06-19,Waived monthly minimum,Approved,New partner acquisition,8805.8,Product Director,2026-07-08
+E000531,P002996,2025-02-09,High-risk waiver,Approved,Risk-adjusted commercial exception,218297.08,Pricing Governance,2025-09-08
+E000532,P003005,2021-12-19,High-risk waiver,Expired,Competitive displacement,142321.65,None,2022-06-22
+E000533,P003011,2025-06-24,Discounted bps,Approved,Contract renewal concession,34705.78,Product Director,2026-07-16
+E000534,P003015,2024-03-23,Volume threshold waiver,Approved,New partner acquisition,13744.86,Revenue Management,2025-04-13
+E000535,P003017,2024-03-20,Waived monthly minimum,Approved,New partner acquisition,136134.61,Pricing Governance,2025-03-27
+E000536,P003026,2022-04-06,Legacy plan extension,Approved,Strategic retention,15559.31,Pricing Governance,2023-05-07
+E000537,P003038,2020-03-19,High-risk waiver,Approved,Contract renewal concession,41011.67,Pricing Governance,2021-04-20
+E000538,P003043,2020-06-13,Discounted bps,Approved,Migration incentive,20573.66,Revenue Management,2021-06-27
+E000539,P003045,2023-07-18,High-risk waiver,Expired,Strategic retention,68914.04,Pricing Governance,2024-02-03
+E000540,P003052,2023-03-27,Waived monthly minimum,Expired,Migration incentive,40446.07,Product Director,2024-04-05
+E000541,P003060,2024-01-09,Discounted bps,Approved,Contract renewal concession,361.84,Revenue Management,2025-01-19
+E000542,P003070,2018-01-13,Volume threshold waiver,Approved,Strategic retention,32111.35,Revenue Management,2019-01-20
+E000543,P003088,2020-05-30,High-risk waiver,Expired,Migration incentive,722051.46,Product Director,2021-06-29
+E000544,P003091,2023-10-06,High-risk waiver,Approved,Migration incentive,186764.83,Pricing Governance,2024-10-20
+E000545,P003092,2025-05-20,Discounted bps,Approved,Risk-adjusted commercial exception,3495.71,Risk Review,2027-06-18
+E000546,P003093,2018-11-11,Waived monthly minimum,Pending,Contract renewal concession,419495.21,Pricing Governance,2019-12-13
+E000547,P003099,2022-10-03,High-risk waiver,Expired,Competitive displacement,26208.46,Product Director,2023-11-03
+E000548,P003100,2023-06-20,Waived monthly minimum,Pending,Strategic retention,84699.74,Pricing Governance,2024-07-02
+E000549,P003108,2025-01-30,Discounted bps,Approved,Migration incentive,255668.47,Pricing Governance,2025-08-21
+E000550,P003109,2022-01-09,Volume threshold waiver,Approved,Competitive displacement,36836.41,Revenue Management,2023-01-16
+E000551,P003110,2023-06-10,Legacy plan extension,Approved,Risk-adjusted commercial exception,658519.97,Product Director,2024-06-19
+E000552,P003111,2025-06-24,High-risk waiver,Expired,Strategic retention,452797.49,Risk Review,2026-07-22
+E000553,P003116,2024-04-18,Discounted bps,Approved,Migration incentive,8762.41,Pricing Governance,2024-10-23
+E000554,P003119,2023-03-02,Discounted bps,Approved,Contract renewal concession,69551.41,Product Director,2023-09-06
+E000555,P003121,2023-06-02,Volume threshold waiver,Approved,Competitive displacement,671914.27,Revenue Management,2024-07-02
+E000556,P003122,2022-11-24,Waived monthly minimum,Approved,Competitive displacement,22842738.3,Revenue Management,2023-06-18
+E000557,P003124,2021-03-02,Discounted bps,Pending,Risk-adjusted commercial exception,3206848.04,Risk Review,2021-09-12
+E000558,P003132,2023-03-24,Legacy plan extension,Pending,Contract renewal concession,16655.13,Revenue Management,2023-09-26
+E000559,P003137,2018-08-18,Volume threshold waiver,Approved,Strategic retention,9230.92,Risk Review,2019-09-06
+E000560,P003143,2024-10-06,Legacy plan extension,Approved,New partner acquisition,16109.67,Pricing Governance,2025-10-31
+E000561,P003146,2024-08-24,Volume threshold waiver,Approved,Risk-adjusted commercial exception,71600.97,Revenue Management,2025-03-02
+E000562,P003149,2018-10-01,Legacy plan extension,Approved,Strategic retention,45371.99,Risk Review,2019-04-13
+E000563,P003153,2018-07-10,Volume threshold waiver,Approved,New partner acquisition,59354.64,Pricing Governance,2019-01-14
+E000564,P003156,2025-01-15,Discounted bps,Approved,Risk-adjusted commercial exception,12970.72,Pricing Governance,2025-08-01
+E000565,P003157,2022-11-24,Waived monthly minimum,Approved,New partner acquisition,23097.06,Revenue Management,2023-12-21
+E000566,P003161,2018-02-07,Discounted bps,Expired,Strategic retention,2471.05,Pricing Governance,2018-09-01
+E000567,P003171,2021-02-25,Discounted bps,Approved,Strategic retention,61787.78,Product Director,2021-09-25
+E000568,P003179,2021-01-17,Legacy plan extension,Pending,Competitive displacement,29355.01,Revenue Management,2023-02-15
+E000569,P003181,2024-05-02,Volume threshold waiver,Approved,New partner acquisition,121350.34,Pricing Governance,2025-05-20
+E000570,P003185,2019-06-15,Waived monthly minimum,Approved,Contract renewal concession,2745.94,Pricing Governance,2020-01-09
+E000571,P003186,2025-08-08,High-risk waiver,Pending,Migration incentive,9692.03,Product Director,2026-08-25
+E000572,P003198,2022-01-12,Volume threshold waiver,Approved,Competitive displacement,4817.74,Revenue Management,2024-02-14
+E000573,P003231,2020-05-21,Waived monthly minimum,Approved,New partner acquisition,37324.56,Product Director,2020-12-21
+E000574,P003234,2021-09-30,Volume threshold waiver,Approved,Contract renewal concession,11616.03,None,2022-04-14
+E000575,P003237,2025-01-28,Legacy plan extension,Pending,New partner acquisition,70993.03,Pricing Governance,2026-02-16
+E000576,P003249,2019-09-13,Legacy plan extension,Approved,Strategic retention,17524.21,None,2020-10-04
+E000577,P003250,2024-02-07,Discounted bps,Approved,Migration incentive,7692.54,Revenue Management,2025-02-26
+E000578,P003252,2023-12-07,High-risk waiver,Expired,Migration incentive,1537663.02,Product Director,2025-12-24
+E000579,P003254,2019-08-05,Discounted bps,Approved,Risk-adjusted commercial exception,4274.56,Revenue Management,2021-08-18
+E000580,P003255,2023-09-10,Waived monthly minimum,Approved,Risk-adjusted commercial exception,77056.38,Pricing Governance,2024-09-17
+E000581,P003257,2018-10-29,Discounted bps,Approved,Strategic retention,64360.19,Pricing Governance,2019-05-31
+E000582,P003263,2024-02-24,Volume threshold waiver,Approved,Strategic retention,7755.79,Product Director,2025-03-02
+E000583,P003264,2023-08-09,Legacy plan extension,Pending,Competitive displacement,2487.0,Pricing Governance,2024-08-26
+E000584,P003266,2023-07-29,Waived monthly minimum,Approved,Strategic retention,8365.3,Product Director,2024-02-06
+E000585,P003267,2025-07-07,Legacy plan extension,Pending,Migration incentive,25007.19,Product Director,2026-07-19
+E000586,P003268,2021-08-19,High-risk waiver,Approved,Migration incentive,336475.61,Pricing Governance,2022-09-16
+E000587,P003272,2018-02-13,High-risk waiver,Expired,Strategic retention,195018.4,Product Director,2018-09-08
+E000588,P003274,2024-04-11,Legacy plan extension,Approved,New partner acquisition,122911.83,Pricing Governance,2024-10-13
+E000589,P003275,2025-06-04,Waived monthly minimum,Approved,Migration incentive,1278283.42,Product Director,2026-06-25
+E000590,P003279,2021-09-18,Legacy plan extension,Approved,Strategic retention,3450.59,Revenue Management,2022-04-05
+E000591,P003281,2023-02-15,High-risk waiver,Approved,Competitive displacement,40812.42,Product Director,2024-03-06
+E000592,P003288,2022-08-06,High-risk waiver,Expired,Migration incentive,384027.6,Revenue Management,2023-08-12
+E000593,P003290,2025-01-25,Legacy plan extension,Pending,Strategic retention,68836.09,Revenue Management,2026-02-02
+E000594,P003298,2022-04-16,Discounted bps,Pending,Contract renewal concession,118428.19,Revenue Management,2022-11-16
+E000595,P003304,2022-06-11,High-risk waiver,Approved,Strategic retention,8756.88,Revenue Management,2022-12-21
+E000596,P003306,2023-04-10,Legacy plan extension,Approved,Migration incentive,7007925.41,Pricing Governance,2024-04-24
+E000597,P003314,2019-12-09,Volume threshold waiver,Approved,Migration incentive,11940.42,Pricing Governance,2020-07-04
+E000598,P003320,2023-01-27,High-risk waiver,Pending,New partner acquisition,78362.26,Revenue Management,2025-02-14
+E000599,P003321,2021-06-24,Discounted bps,Approved,New partner acquisition,2942.83,Revenue Management,2022-07-22
+E000600,P003323,2022-03-14,High-risk waiver,Approved,Contract renewal concession,75088.0,Pricing Governance,2023-04-01
+E000601,P003324,2023-03-25,Legacy plan extension,Rejected,Contract renewal concession,21805.1,Pricing Governance,2024-04-25
+E000602,P003327,2023-08-05,Waived monthly minimum,Approved,New partner acquisition,10780.32,Revenue Management,2024-08-10
+E000603,P003331,2025-06-10,Discounted bps,Expired,Contract renewal concession,90856.22,Risk Review,2027-07-11
+E000604,P003332,2020-02-23,Legacy plan extension,Approved,Contract renewal concession,280877.78,Pricing Governance,2021-03-25
+E000605,P003337,2018-12-05,High-risk waiver,Approved,New partner acquisition,42915.85,Pricing Governance,2020-12-15
+E000606,P003338,2024-02-22,Discounted bps,Pending,Migration incentive,671316.16,Pricing Governance,2024-08-30
+E000607,P003350,2021-02-03,Legacy plan extension,Pending,Strategic retention,2853.34,Pricing Governance,2022-02-27
+E000608,P003351,2025-06-30,Legacy plan extension,Approved,Contract renewal concession,291192.35,Risk Review,2026-01-03
+E000609,P003361,2020-02-26,High-risk waiver,Approved,Risk-adjusted commercial exception,9488.99,Pricing Governance,2020-08-31
+E000610,P003362,2022-05-25,Volume threshold waiver,Approved,New partner acquisition,32288.17,Revenue Management,2023-06-23
+E000611,P003381,2024-02-29,Waived monthly minimum,Rejected,Contract renewal concession,3655075.61,Revenue Management,2024-09-13
+E000612,P003383,2023-04-09,Volume threshold waiver,Expired,Contract renewal concession,228976.87,Pricing Governance,2024-05-07
+E000613,P003385,2023-03-20,Discounted bps,Approved,Contract renewal concession,183.13,Risk Review,2025-04-06
+E000614,P003400,2025-08-13,Volume threshold waiver,Approved,Risk-adjusted commercial exception,16928.46,None,2026-08-21
+E000615,P003405,2024-11-17,Legacy plan extension,Approved,Competitive displacement,143101.93,Pricing Governance,2026-12-15
+E000616,P003411,2025-03-09,Volume threshold waiver,Pending,Risk-adjusted commercial exception,83413.57,Risk Review,2026-04-02
+E000617,P003422,2020-07-16,Waived monthly minimum,Approved,Contract renewal concession,207697.04,Pricing Governance,2021-07-28
+E000618,P003423,2023-04-23,Waived monthly minimum,Approved,Strategic retention,13557.97,Revenue Management,2023-11-19
+E000619,P003427,2025-05-19,Volume threshold waiver,Rejected,Migration incentive,43909.01,Pricing Governance,2025-11-28
+E000620,P003438,2020-03-31,High-risk waiver,Approved,Strategic retention,11665.17,Pricing Governance,2022-04-28
+E000621,P003440,2022-07-28,High-risk waiver,Approved,New partner acquisition,361366.09,Pricing Governance,2023-02-12
+E000622,P003449,2024-11-19,Waived monthly minimum,Approved,Strategic retention,430054.63,Revenue Management,2025-05-26
+E000623,P003451,2023-01-31,Legacy plan extension,Approved,Competitive displacement,115966.35,Product Director,2024-02-18
+E000624,P003452,2023-05-11,Volume threshold waiver,Approved,New partner acquisition,5565.8,Revenue Management,2024-05-19
+E000625,P003454,2024-02-01,High-risk waiver,Approved,New partner acquisition,13557.83,Pricing Governance,2025-02-21
+E000626,P003479,2024-09-17,Volume threshold waiver,Rejected,Strategic retention,23428.18,Risk Review,2025-04-13
+E000627,P003482,2025-02-12,High-risk waiver,Approved,Contract renewal concession,8098.37,Revenue Management,2025-09-15
+E000628,P003484,2024-05-28,Discounted bps,Approved,Risk-adjusted commercial exception,3214.81,Pricing Governance,2025-06-19
+E000629,P003491,2024-09-12,High-risk waiver,Approved,Risk-adjusted commercial exception,68683.62,None,2025-10-03
+E000630,P003493,2023-08-13,Discounted bps,Pending,Strategic retention,5876.12,Product Director,2024-09-08
+E000631,P003499,2020-08-31,Waived monthly minimum,Rejected,Competitive displacement,2270.68,Pricing Governance,2021-10-03
+E000632,P003500,2021-12-28,Waived monthly minimum,Approved,Contract renewal concession,14004352.13,Risk Review,2023-01-23
+E000633,P003513,2018-05-12,High-risk waiver,Pending,New partner acquisition,17153.75,Pricing Governance,2018-12-12
+E000634,P003516,2024-12-26,Discounted bps,Approved,Strategic retention,5064.05,Pricing Governance,2025-07-24
+E000635,P003520,2021-03-21,Waived monthly minimum,Approved,Migration incentive,213306.4,Product Director,2022-04-18
+E000636,P003526,2018-10-17,Volume threshold waiver,Expired,Strategic retention,218208.74,Pricing Governance,2019-05-05
+E000637,P003536,2022-05-30,Legacy plan extension,Approved,Competitive displacement,313267.03,Revenue Management,2023-06-21
+E000638,P003539,2020-09-14,Discounted bps,Approved,Risk-adjusted commercial exception,15176.35,Pricing Governance,2021-10-02
+E000639,P003542,2021-06-21,Waived monthly minimum,Expired,Risk-adjusted commercial exception,21229.02,Pricing Governance,2023-07-10
+E000640,P003561,2023-09-23,Waived monthly minimum,Approved,Contract renewal concession,202050.21,Revenue Management,2024-10-26
+E000641,P003564,2019-02-03,Legacy plan extension,Approved,New partner acquisition,3006.63,Risk Review,2019-08-17
+E000642,P003565,2021-09-01,High-risk waiver,Approved,Risk-adjusted commercial exception,13743.66,Pricing Governance,2022-03-09
+E000643,P003566,2020-08-26,High-risk waiver,Pending,New partner acquisition,1707785.76,Revenue Management,2021-09-21
+E000644,P003568,2021-09-29,Discounted bps,Approved,Risk-adjusted commercial exception,9657.9,Product Director,2022-10-12
+E000645,P003571,2023-02-05,Volume threshold waiver,Approved,Competitive displacement,5183.46,Revenue Management,2023-09-07
+E000646,P003574,2024-12-20,Volume threshold waiver,Expired,Contract renewal concession,15199.15,Product Director,2027-01-17
+E000647,P003588,2025-06-05,Volume threshold waiver,Approved,New partner acquisition,20907.3,Pricing Governance,2026-07-02
+E000648,P003589,2019-09-01,Waived monthly minimum,Approved,Migration incentive,6473.23,Pricing Governance,2020-09-21
+E000649,P003590,2020-06-03,Volume threshold waiver,Approved,Contract renewal concession,430536.88,Pricing Governance,2021-06-08
+E000650,P003593,2024-02-16,High-risk waiver,Approved,Competitive displacement,44300.68,Risk Review,2025-02-28
+E000651,P003600,2024-03-01,Waived monthly minimum,Pending,Migration incentive,214217.69,Pricing Governance,2024-09-14
+E000652,P003609,2024-06-13,Volume threshold waiver,Pending,Migration incentive,1199.13,Pricing Governance,2025-06-22
+E000653,P003612,2019-11-07,Legacy plan extension,Approved,Risk-adjusted commercial exception,33336.11,Product Director,2020-11-14
+E000654,P003614,2025-01-29,Legacy plan extension,Approved,Migration incentive,37816.89,Revenue Management,2026-02-14
+E000655,P003626,2023-01-29,Volume threshold waiver,Approved,Migration incentive,9918.32,Pricing Governance,2024-02-15
+E000656,P003628,2023-04-09,High-risk waiver,Approved,Risk-adjusted commercial exception,663697.62,Pricing Governance,2024-04-14
+E000657,P003637,2024-01-14,Waived monthly minimum,Approved,Risk-adjusted commercial exception,195959.39,Risk Review,2025-02-08
+E000658,P003638,2022-12-29,Volume threshold waiver,Expired,New partner acquisition,19073.33,Product Director,2025-02-01
+E000659,P003644,2021-09-29,Waived monthly minimum,Approved,New partner acquisition,7701.34,Pricing Governance,2022-10-29
+E000660,P003647,2018-12-06,Volume threshold waiver,Pending,Strategic retention,6737.72,None,2020-12-17
+E000661,P003650,2023-02-08,Discounted bps,Expired,Migration incentive,10948.43,Revenue Management,2024-02-23
+E000662,P003662,2020-08-22,Waived monthly minimum,Expired,Strategic retention,132472.09,Pricing Governance,2021-09-13
+E000663,P003667,2025-08-22,Discounted bps,Approved,Risk-adjusted commercial exception,16241.53,Pricing Governance,2027-09-01
+E000664,P003673,2024-12-15,Legacy plan extension,Approved,Migration incentive,460320.07,Pricing Governance,2026-01-05
+E000665,P003677,2019-10-26,Discounted bps,Approved,Strategic retention,669.79,Revenue Management,2020-11-18
+E000666,P003679,2019-05-19,Legacy plan extension,Approved,Competitive displacement,290976.63,Pricing Governance,2019-12-12
+E000667,P003699,2023-12-05,Legacy plan extension,Expired,Risk-adjusted commercial exception,3576037.0,Risk Review,2024-12-10
+E000668,P003702,2024-03-10,Waived monthly minimum,Pending,Risk-adjusted commercial exception,849.2,Product Director,2026-03-29
+E000669,P003704,2023-05-04,Legacy plan extension,Approved,Strategic retention,75328.81,Product Director,2025-05-19
+E000670,P003732,2019-10-22,Waived monthly minimum,Approved,Strategic retention,17026.85,Revenue Management,2020-11-10
+E000671,P003733,2020-04-16,High-risk waiver,Pending,New partner acquisition,89773.9,Pricing Governance,2020-10-26
+E000672,P003735,2024-08-28,Legacy plan extension,Approved,Migration incentive,28816.22,Product Director,2026-09-14
+E000673,P003747,2024-08-20,Waived monthly minimum,Approved,Strategic retention,18765.33,Revenue Management,2026-09-06
+E000674,P003749,2018-11-05,Discounted bps,Approved,Contract renewal concession,2032.75,Product Director,2020-12-06
+E000675,P003753,2018-04-05,Discounted bps,Approved,Migration incentive,75083.63,Revenue Management,2019-05-07
+E000676,P003756,2023-08-03,High-risk waiver,Approved,Competitive displacement,381641.84,Pricing Governance,2024-08-19
+E000677,P003762,2024-09-20,Legacy plan extension,Expired,New partner acquisition,35339.51,None,2025-09-27
+E000678,P003776,2025-07-23,Discounted bps,Expired,Strategic retention,177330.31,Pricing Governance,2026-08-19
+E000679,P003785,2023-06-04,Legacy plan extension,Rejected,Contract renewal concession,2933.93,Product Director,2023-12-15
+E000680,P003793,2023-04-08,Legacy plan extension,Approved,Competitive displacement,716513.25,Pricing Governance,2024-05-10
+E000681,P003797,2024-11-28,Volume threshold waiver,Approved,Strategic retention,4668714.84,Pricing Governance,2026-12-05
+E000682,P003808,2024-01-01,Legacy plan extension,Pending,New partner acquisition,108.8,Pricing Governance,2026-02-04
+E000683,P003815,2024-02-29,Volume threshold waiver,Approved,New partner acquisition,15173.55,Product Director,2024-09-20
+E000684,P003824,2024-09-07,Discounted bps,Approved,Competitive displacement,179.55,Product Director,2025-03-18
+E000685,P003833,2023-11-02,Volume threshold waiver,Approved,Contract renewal concession,36242.95,Pricing Governance,2025-11-08
+E000686,P003834,2023-06-21,Discounted bps,Pending,New partner acquisition,12634.29,Product Director,2024-07-24
+E000687,P003837,2024-06-15,High-risk waiver,Approved,New partner acquisition,588466.55,Revenue Management,2025-07-05
+E000688,P003838,2020-05-07,High-risk waiver,Expired,Migration incentive,208679.4,Product Director,2022-05-27
+E000689,P003848,2020-02-09,High-risk waiver,Approved,Risk-adjusted commercial exception,9644.38,Product Director,2022-03-03
+E000690,P003852,2023-08-19,Volume threshold waiver,Approved,Competitive displacement,3674.63,Revenue Management,2024-03-19
+E000691,P003857,2024-07-31,Waived monthly minimum,Pending,Strategic retention,23249.86,Pricing Governance,2026-08-06
+E000692,P003861,2018-09-18,Discounted bps,Pending,New partner acquisition,14547.29,Revenue Management,2019-04-13
+E000693,P003883,2023-03-30,Volume threshold waiver,Approved,Migration incentive,243672.87,Revenue Management,2024-04-26
+E000694,P003887,2018-10-21,High-risk waiver,Pending,Risk-adjusted commercial exception,141249.02,Pricing Governance,2020-11-04
+E000695,P003892,2019-11-06,High-risk waiver,Approved,Contract renewal concession,136825.81,Product Director,2020-05-16
+E000696,P003896,2018-09-05,Volume threshold waiver,Pending,Strategic retention,12968.9,Product Director,2020-10-02
+E000697,P003898,2018-08-23,Waived monthly minimum,Pending,Contract renewal concession,6184.86,Revenue Management,2019-03-01
+E000698,P003899,2025-06-15,Waived monthly minimum,Approved,New partner acquisition,256256.02,Pricing Governance,2026-07-03
+E000699,P003900,2024-03-14,Discounted bps,Approved,Competitive displacement,3068.38,Risk Review,2024-09-27
+E000700,P003901,2021-11-18,Legacy plan extension,Expired,New partner acquisition,218429.83,Pricing Governance,2022-11-28
+E000701,P003906,2025-07-19,Legacy plan extension,Approved,New partner acquisition,39001.41,Pricing Governance,2026-08-03
+E000702,P003920,2023-06-15,Volume threshold waiver,Approved,Competitive displacement,92969.04,Revenue Management,2024-07-05
+E000703,P003923,2022-06-03,Waived monthly minimum,Approved,Risk-adjusted commercial exception,154751.01,Pricing Governance,2023-06-17
+E000704,P003926,2025-05-27,Waived monthly minimum,Approved,Risk-adjusted commercial exception,59882.84,Product Director,2026-06-03
+E000705,P003930,2023-06-10,High-risk waiver,Pending,Migration incentive,318561.64,Risk Review,2024-06-14
+E000706,P003940,2025-06-08,Legacy plan extension,Approved,Risk-adjusted commercial exception,13373.22,Revenue Management,2026-06-23
+E000707,P003944,2023-09-21,Volume threshold waiver,Approved,Contract renewal concession,25064.94,Pricing Governance,2024-10-18
+E000708,P003950,2025-07-22,Volume threshold waiver,Expired,Strategic retention,363705.83,Pricing Governance,2026-07-29
+E000709,P003951,2021-08-02,Discounted bps,Approved,Contract renewal concession,256170.14,Pricing Governance,2022-08-15
+E000710,P003952,2023-03-06,Discounted bps,Approved,New partner acquisition,1314184.33,None,2024-04-07
+E000711,P003968,2023-01-23,Waived monthly minimum,Approved,Competitive displacement,1926.95,Product Director,2024-02-22
+E000712,P003971,2023-01-30,Waived monthly minimum,Approved,Contract renewal concession,52361.07,Risk Review,2023-08-25
+E000713,P003972,2021-10-16,Discounted bps,Pending,Strategic retention,3179.23,Pricing Governance,2022-10-29
+E000714,P003983,2025-01-30,Legacy plan extension,Approved,New partner acquisition,12135.53,Product Director,2027-02-27
+E000715,P003999,2021-02-11,Volume threshold waiver,Approved,New partner acquisition,2401384.48,Pricing Governance,2021-08-18
+E000716,P004001,2023-06-01,Legacy plan extension,Approved,New partner acquisition,29049.71,Product Director,2023-12-08
+E000717,P004006,2024-08-03,High-risk waiver,Expired,Competitive displacement,409.49,Product Director,2025-02-21
+E000718,P004017,2023-09-29,Discounted bps,Approved,Strategic retention,143869.6,Pricing Governance,2024-04-30
+E000719,P004019,2023-12-20,High-risk waiver,Approved,Contract renewal concession,24009.46,Risk Review,2025-01-17
+E000720,P004025,2021-06-16,Waived monthly minimum,Approved,Strategic retention,3018.53,Pricing Governance,2022-07-20
+E000721,P004044,2023-06-02,Volume threshold waiver,Approved,Competitive displacement,9194.75,Risk Review,2025-06-22
+E000722,P004046,2023-11-10,Discounted bps,Expired,Strategic retention,33762.52,Pricing Governance,2024-11-23
+E000723,P004049,2022-11-06,Volume threshold waiver,Approved,Migration incentive,9088.69,Risk Review,2024-12-05
+E000724,P004053,2024-11-12,High-risk waiver,Pending,Strategic retention,348373.29,Product Director,2025-11-18
+E000725,P004054,2024-12-25,Legacy plan extension,Approved,Competitive displacement,42813.52,Revenue Management,2027-01-28
+E000726,P004057,2023-04-05,High-risk waiver,Expired,Contract renewal concession,1213.86,Revenue Management,2023-10-29
+E000727,P004071,2023-12-04,Legacy plan extension,Approved,Risk-adjusted commercial exception,143342.88,Pricing Governance,2024-12-31
+E000728,P004079,2020-02-15,Discounted bps,Approved,New partner acquisition,19022.63,Product Director,2022-02-21
+E000729,P004082,2018-07-24,Legacy plan extension,Rejected,Risk-adjusted commercial exception,126712.09,Risk Review,2019-07-29
+E000730,P004100,2021-05-10,Waived monthly minimum,Pending,Migration incentive,8552.09,Product Director,2022-06-13
+E000731,P004103,2024-02-25,Volume threshold waiver,Approved,Strategic retention,5972.45,Pricing Governance,2025-03-02
+E000732,P004135,2025-02-10,Volume threshold waiver,Pending,Contract renewal concession,840982.05,Product Director,2027-02-24
+E000733,P004141,2020-01-13,Volume threshold waiver,Approved,Migration incentive,230.65,Risk Review,2021-02-05
+E000734,P004146,2025-02-14,Waived monthly minimum,Expired,Competitive displacement,924799.55,Revenue Management,2026-02-19
+E000735,P004151,2022-01-05,Volume threshold waiver,Approved,Competitive displacement,292852.23,Pricing Governance,2023-01-27
+E000736,P004172,2025-02-21,Legacy plan extension,Approved,Risk-adjusted commercial exception,224557.79,Product Director,2026-03-24
+E000737,P004174,2025-01-19,High-risk waiver,Approved,Risk-adjusted commercial exception,15197.76,Product Director,2026-02-15
+E000738,P004177,2018-07-13,Volume threshold waiver,Approved,Strategic retention,160308.45,Revenue Management,2019-07-19
+E000739,P004181,2025-06-11,High-risk waiver,Pending,Strategic retention,34994.03,Revenue Management,2026-06-23
+E000740,P004184,2024-04-25,Legacy plan extension,Pending,Risk-adjusted commercial exception,6274.43,Pricing Governance,2025-05-25
+E000741,P004189,2025-05-14,Waived monthly minimum,Approved,Risk-adjusted commercial exception,1887374.0,Product Director,2026-06-18
+E000742,P004196,2021-08-29,Volume threshold waiver,Pending,New partner acquisition,57372.16,Pricing Governance,2022-09-22
+E000743,P004199,2021-01-13,Discounted bps,Approved,New partner acquisition,50695.57,Pricing Governance,2021-08-06
+E000744,P004202,2025-06-08,Discounted bps,Expired,New partner acquisition,892.58,Risk Review,2026-06-27
+E000745,P004209,2024-06-29,High-risk waiver,Approved,Competitive displacement,120328.79,Product Director,2025-01-01
+E000746,P004212,2018-05-11,Volume threshold waiver,Pending,Migration incentive,25015.4,Pricing Governance,2019-05-16
+E000747,P004231,2022-08-31,High-risk waiver,Approved,Risk-adjusted commercial exception,1856192.81,Revenue Management,2023-09-25
+E000748,P004237,2019-07-04,High-risk waiver,Pending,Migration incentive,4656.06,Pricing Governance,2020-01-30
+E000749,P004242,2025-07-15,Legacy plan extension,Rejected,Strategic retention,60343.2,Pricing Governance,2026-01-18
+E000750,P004252,2021-06-29,Legacy plan extension,Approved,Competitive displacement,40078.56,Revenue Management,2022-07-05
+E000751,P004260,2025-04-11,Waived monthly minimum,Approved,Risk-adjusted commercial exception,129633.32,Product Director,2026-04-25
+E000752,P004263,2019-07-18,Legacy plan extension,Pending,Strategic retention,38770.32,Revenue Management,2021-07-29
+E000753,P004267,2020-09-15,Legacy plan extension,Approved,Contract renewal concession,19349.69,Pricing Governance,2022-10-01
+E000754,P004276,2021-02-04,Waived monthly minimum,Approved,Risk-adjusted commercial exception,1647064.03,Risk Review,2022-02-28
+E000755,P004281,2020-10-18,Legacy plan extension,Approved,New partner acquisition,4252.65,Pricing Governance,2021-05-03
+E000756,P004290,2024-12-15,Volume threshold waiver,Approved,Contract renewal concession,106353.01,Pricing Governance,2025-12-22
+E000757,P004309,2023-08-21,Legacy plan extension,Approved,Competitive displacement,4681.38,Product Director,2024-03-19
+E000758,P004321,2019-06-29,High-risk waiver,Approved,New partner acquisition,249344.0,Revenue Management,2020-07-19
+E000759,P004332,2025-02-19,Discounted bps,Approved,Risk-adjusted commercial exception,52575.44,Revenue Management,2027-03-22
+E000760,P004337,2023-03-13,Waived monthly minimum,Approved,Contract renewal concession,14969.26,Product Director,2023-10-02
+E000761,P004345,2025-06-03,Legacy plan extension,Pending,Migration incentive,691.13,Pricing Governance,2026-07-02
+E000762,P004350,2018-08-15,Volume threshold waiver,Approved,Competitive displacement,1802408.42,Product Director,2019-02-27
+E000763,P004371,2025-03-21,Volume threshold waiver,Approved,Competitive displacement,4661.97,Pricing Governance,2027-04-22
+E000764,P004372,2021-02-28,Legacy plan extension,Approved,Strategic retention,229569.78,Pricing Governance,2021-09-30
+E000765,P004374,2018-10-22,High-risk waiver,Expired,Competitive displacement,7901.46,Pricing Governance,2019-11-22
+E000766,P004377,2021-04-13,Volume threshold waiver,Approved,Migration incentive,1332604.57,Pricing Governance,2022-05-16
+E000767,P004378,2023-09-14,Volume threshold waiver,Expired,Risk-adjusted commercial exception,60309.8,Risk Review,2024-10-01
+E000768,P004379,2023-01-16,Waived monthly minimum,Approved,Strategic retention,25945.08,Risk Review,2023-08-07
+E000769,P004391,2019-04-15,Discounted bps,Expired,Risk-adjusted commercial exception,4187.57,Revenue Management,2020-04-21
+E000770,P004392,2018-01-19,Discounted bps,Rejected,New partner acquisition,2182.16,Pricing Governance,2018-08-17
+E000771,P004404,2019-01-19,High-risk waiver,Approved,New partner acquisition,610049.24,Pricing Governance,2020-02-03
+E000772,P004411,2024-11-19,Waived monthly minimum,Rejected,New partner acquisition,1631858.59,Revenue Management,2025-12-19
+E000773,P004415,2024-01-25,Volume threshold waiver,Pending,Strategic retention,102427.4,Pricing Governance,2025-02-22
+E000774,P004420,2020-07-07,Waived monthly minimum,Approved,New partner acquisition,127645.77,Risk Review,2021-02-07
+E000775,P004425,2024-02-27,Legacy plan extension,Pending,Contract renewal concession,44929.73,Product Director,2024-09-07
+E000776,P004430,2019-02-10,High-risk waiver,Expired,Contract renewal concession,55348.12,Pricing Governance,2020-03-02
+E000777,P004435,2023-01-26,Volume threshold waiver,Approved,Competitive displacement,45163.21,Product Director,2024-03-01
+E000778,P004442,2023-04-11,Waived monthly minimum,Approved,Risk-adjusted commercial exception,27661.81,Product Director,2025-04-24
+E000779,P004445,2025-02-14,High-risk waiver,Approved,Strategic retention,14193.47,Revenue Management,2026-02-25
+E000780,P004447,2023-04-08,Legacy plan extension,Pending,Competitive displacement,381.06,Revenue Management,2024-04-21
+E000781,P004473,2024-10-21,Legacy plan extension,Approved,Competitive displacement,40682.34,Risk Review,2026-10-31
+E000782,P004476,2024-05-13,Legacy plan extension,Approved,New partner acquisition,259923.8,None,2025-05-27
+E000783,P004477,2019-07-10,Legacy plan extension,Pending,Risk-adjusted commercial exception,1371629.56,Pricing Governance,2021-07-16
+E000784,P004484,2023-06-24,Legacy plan extension,Approved,Contract renewal concession,89315.58,Product Director,2024-07-17
+E000785,P004492,2018-09-01,Volume threshold waiver,Rejected,New partner acquisition,132482.17,Revenue Management,2019-09-26
+E000786,P004497,2019-01-09,Waived monthly minimum,Expired,Competitive displacement,2479428.99,Risk Review,2021-01-29
+E000787,P004502,2024-08-11,Legacy plan extension,Approved,Contract renewal concession,2078.98,Pricing Governance,2025-09-08
+E000788,P004508,2025-05-01,Legacy plan extension,Approved,Contract renewal concession,36290.39,Pricing Governance,2026-05-07
+E000789,P004509,2025-06-15,Legacy plan extension,Approved,Competitive displacement,3081.19,None,2026-06-28
+E000790,P004526,2024-03-18,Waived monthly minimum,Approved,New partner acquisition,1367533.61,None,2024-10-06
+E000791,P004532,2023-06-22,Discounted bps,Pending,Migration incentive,400093.19,Pricing Governance,2024-06-28
+E000792,P004533,2024-01-16,Discounted bps,Rejected,Migration incentive,15121.67,Pricing Governance,2025-02-11
+E000793,P004535,2024-06-28,Legacy plan extension,Approved,Strategic retention,5075.84,Pricing Governance,2025-01-26
+E000794,P004536,2023-10-04,Waived monthly minimum,Expired,Competitive displacement,49925.85,Revenue Management,2024-04-26
+E000795,P004538,2022-11-18,Discounted bps,Rejected,Risk-adjusted commercial exception,455.73,None,2024-12-20
+E000796,P004540,2025-03-01,Waived monthly minimum,Rejected,New partner acquisition,3474.97,Pricing Governance,2026-03-15
+E000797,P004544,2023-03-30,High-risk waiver,Expired,Risk-adjusted commercial exception,26856.45,Pricing Governance,2023-10-02
+E000798,P004552,2023-07-07,Legacy plan extension,Approved,New partner acquisition,12032.76,Product Director,2024-01-12
+E000799,P004553,2023-06-21,Legacy plan extension,Expired,Risk-adjusted commercial exception,3344385.37,Revenue Management,2024-01-14
+E000800,P004566,2025-03-13,High-risk waiver,Expired,Risk-adjusted commercial exception,23826.85,Revenue Management,2025-10-05
+E000801,P004577,2023-08-19,Legacy plan extension,Approved,Contract renewal concession,7636.58,Revenue Management,2024-09-01
+E000802,P004587,2023-01-04,Legacy plan extension,Expired,Contract renewal concession,4884.57,Revenue Management,2023-07-14
+E000803,P004588,2023-06-03,Legacy plan extension,Approved,Contract renewal concession,332900.22,Pricing Governance,2024-01-01
+E000804,P004589,2019-10-05,Volume threshold waiver,Approved,Strategic retention,267167.23,Product Director,2020-10-15
+E000805,P004590,2025-01-26,Discounted bps,Pending,Strategic retention,2434.95,Pricing Governance,2026-02-15
+E000806,P004591,2024-05-07,High-risk waiver,Pending,Migration incentive,50176.66,Revenue Management,2024-11-28
+E000807,P004595,2023-06-17,High-risk waiver,Approved,Migration incentive,174291.21,Revenue Management,2024-07-11
+E000808,P004599,2023-03-20,Discounted bps,Approved,Risk-adjusted commercial exception,329.05,Product Director,2023-10-03
+E000809,P004608,2019-12-03,High-risk waiver,Approved,Competitive displacement,1173098.85,Pricing Governance,2021-01-05
+E000810,P004609,2023-10-24,High-risk waiver,Approved,Contract renewal concession,8998.84,Pricing Governance,2025-11-20
+E000811,P004622,2024-01-03,Discounted bps,Approved,Contract renewal concession,3464.57,Pricing Governance,2025-01-24
+E000812,P004623,2024-06-12,Legacy plan extension,Pending,Migration incentive,1007699.98,Pricing Governance,2026-06-27
+E000813,P004624,2021-02-21,Waived monthly minimum,Expired,New partner acquisition,1066463.31,Pricing Governance,2022-03-16
+E000814,P004625,2018-06-23,Volume threshold waiver,Approved,Risk-adjusted commercial exception,132916.58,Pricing Governance,2020-07-20
+E000815,P004626,2022-09-02,Volume threshold waiver,Pending,Migration incentive,413.18,Revenue Management,2024-09-26
+E000816,P004630,2025-08-18,Volume threshold waiver,Approved,Strategic retention,479922.38,Revenue Management,2027-08-24
+E000817,P004631,2019-02-21,High-risk waiver,Approved,Strategic retention,50025.91,Pricing Governance,2020-03-26
+E000818,P004635,2024-11-28,Legacy plan extension,Approved,Strategic retention,7515.4,Pricing Governance,2027-01-01
+E000819,P004644,2024-08-07,High-risk waiver,Expired,New partner acquisition,21595.23,Product Director,2025-02-18
+E000820,P004645,2019-02-11,Volume threshold waiver,Approved,Migration incentive,10199.32,Pricing Governance,2019-09-06
+E000821,P004654,2025-03-26,Legacy plan extension,Approved,Contract renewal concession,23746.87,Revenue Management,2026-04-26
+E000822,P004663,2018-09-26,Discounted bps,Approved,Contract renewal concession,256259.78,Risk Review,2019-10-24
+E000823,P004673,2024-04-05,Legacy plan extension,Approved,Contract renewal concession,13396.54,Pricing Governance,2025-04-13
+E000824,P004675,2022-03-09,High-risk waiver,Pending,Migration incentive,10280.72,Product Director,2023-04-08
+E000825,P004681,2023-12-28,Legacy plan extension,Approved,New partner acquisition,5518940.25,Pricing Governance,2025-01-31
+E000826,P004684,2025-03-28,High-risk waiver,Expired,New partner acquisition,11748.06,Product Director,2026-04-20
+E000827,P004687,2025-05-15,Volume threshold waiver,Approved,Contract renewal concession,1432046.96,Revenue Management,2026-06-10
+E000828,P004690,2018-02-22,Waived monthly minimum,Approved,Risk-adjusted commercial exception,43696.0,Pricing Governance,2018-08-30
+E000829,P004694,2024-09-17,Waived monthly minimum,Approved,Risk-adjusted commercial exception,4209.28,Product Director,2025-10-08
+E000830,P004699,2018-07-03,Waived monthly minimum,Approved,Contract renewal concession,7855.38,Pricing Governance,2019-07-12
+E000831,P004711,2022-05-29,High-risk waiver,Approved,Competitive displacement,2812290.83,Pricing Governance,2024-06-29
+E000832,P004714,2024-09-26,Discounted bps,Approved,New partner acquisition,26273.95,Product Director,2025-10-18
+E000833,P004718,2024-07-16,Legacy plan extension,Approved,Strategic retention,102.86,Risk Review,2025-08-05
+E000834,P004721,2019-12-18,Waived monthly minimum,Approved,Strategic retention,10126.15,None,2020-12-30
+E000835,P004736,2020-03-30,Waived monthly minimum,Approved,Risk-adjusted commercial exception,35352.93,Pricing Governance,2021-04-17
+E000836,P004737,2023-12-15,Legacy plan extension,Approved,Migration incentive,18059.36,Product Director,2026-01-04
+E000837,P004739,2018-05-24,Waived monthly minimum,Pending,Contract renewal concession,19646.05,Revenue Management,2018-12-05
+E000838,P004740,2025-06-07,High-risk waiver,Pending,Strategic retention,113239.95,Pricing Governance,2026-06-18
+E000839,P004741,2024-10-18,Volume threshold waiver,Approved,New partner acquisition,204315.56,Revenue Management,2026-10-30
+E000840,P004744,2018-09-24,High-risk waiver,Approved,New partner acquisition,10386.23,Revenue Management,2019-04-25
+E000841,P004746,2019-04-11,High-risk waiver,Approved,New partner acquisition,29746.4,Product Director,2020-05-09
+E000842,P004755,2019-12-04,Discounted bps,Pending,New partner acquisition,1130937.68,Product Director,2020-06-14
+E000843,P004757,2024-12-14,Waived monthly minimum,Approved,Strategic retention,29234.56,Revenue Management,2025-06-26
+E000844,P004765,2023-06-22,Waived monthly minimum,Approved,Strategic retention,85182.42,Product Director,2023-12-24
+E000845,P004770,2024-07-05,High-risk waiver,Approved,Risk-adjusted commercial exception,127580.46,Product Director,2025-01-17
+E000846,P004783,2024-10-27,Discounted bps,Approved,Migration incentive,1191.08,Pricing Governance,2025-11-20
+E000847,P004784,2024-12-24,Discounted bps,Rejected,Contract renewal concession,51310.85,Pricing Governance,2025-06-28
+E000848,P004785,2025-06-19,Legacy plan extension,Approved,Strategic retention,73434.59,Product Director,2026-07-09
+E000849,P004794,2023-08-01,Discounted bps,Expired,Contract renewal concession,67763.77,Revenue Management,2024-03-02
+E000850,P004797,2021-04-23,Volume threshold waiver,Rejected,Risk-adjusted commercial exception,18877.43,Pricing Governance,2023-05-17
+E000851,P004802,2024-04-05,Legacy plan extension,Approved,Strategic retention,3708.68,Revenue Management,2025-05-08
+E000852,P004811,2023-05-21,Volume threshold waiver,Rejected,Competitive displacement,30225.22,Pricing Governance,2025-06-18
+E000853,P004813,2023-01-12,High-risk waiver,Rejected,Contract renewal concession,93928.2,Revenue Management,2023-08-12
+E000854,P004819,2020-11-07,Legacy plan extension,Approved,Competitive displacement,24715.22,Pricing Governance,2021-11-28
+E000855,P004820,2023-07-06,Legacy plan extension,Expired,Contract renewal concession,37713.7,Revenue Management,2024-07-14
+E000856,P004821,2018-10-06,Legacy plan extension,Approved,Risk-adjusted commercial exception,267722.24,Product Director,2019-04-24
+E000857,P004823,2024-12-13,Discounted bps,Approved,Contract renewal concession,266338.95,Revenue Management,2026-12-27
+E000858,P004824,2020-10-31,High-risk waiver,Pending,Migration incentive,661633.46,Product Director,2021-05-14
+E000859,P004838,2024-11-05,Discounted bps,Approved,Risk-adjusted commercial exception,89656.31,Product Director,2025-12-09
+E000860,P004853,2025-08-14,High-risk waiver,Approved,New partner acquisition,314180.05,Pricing Governance,2026-02-15
+E000861,P004873,2024-03-06,Volume threshold waiver,Rejected,Strategic retention,6794.27,Revenue Management,2026-03-25
+E000862,P004874,2022-12-02,Waived monthly minimum,Approved,Contract renewal concession,303161.79,Pricing Governance,2023-12-10
+E000863,P004880,2021-10-16,Legacy plan extension,Expired,Competitive displacement,750.95,Revenue Management,2023-11-02
+E000864,P004907,2023-06-19,Discounted bps,Approved,Migration incentive,309851.87,Pricing Governance,2025-07-05
+E000865,P004916,2018-05-17,Legacy plan extension,Pending,Risk-adjusted commercial exception,147961.51,Pricing Governance,2018-11-26
+E000866,P004917,2020-12-07,Waived monthly minimum,Approved,New partner acquisition,5347.2,Pricing Governance,2021-07-07
+E000867,P004924,2019-11-02,Legacy plan extension,Expired,Strategic retention,27273.46,Pricing Governance,2020-11-24
+E000868,P004927,2023-11-02,High-risk waiver,Pending,Migration incentive,10286.89,Revenue Management,2024-11-09
+E000869,P004934,2025-02-04,Waived monthly minimum,Pending,Competitive displacement,3606.41,Revenue Management,2026-02-09
+E000870,P004937,2022-07-22,Volume threshold waiver,Rejected,Strategic retention,2199.9,Product Director,2023-08-12
+E000871,P004947,2018-12-02,High-risk waiver,Approved,Risk-adjusted commercial exception,17225.39,Pricing Governance,2019-12-07
+E000872,P004955,2025-02-21,Volume threshold waiver,Approved,Competitive displacement,37740.64,Pricing Governance,2026-03-25
+E000873,P004956,2018-04-24,High-risk waiver,Approved,Contract renewal concession,409157.46,Pricing Governance,2019-05-14
+E000874,P004957,2022-08-14,Waived monthly minimum,Approved,Strategic retention,562158.78,Revenue Management,2023-08-30
+E000875,P004986,2020-07-09,Legacy plan extension,Pending,Competitive displacement,346306.15,Revenue Management,2021-08-12
+E000876,P004988,2022-01-21,Volume threshold waiver,Approved,Strategic retention,404823.29,Risk Review,2023-02-10
+E000877,P004989,2022-10-28,Waived monthly minimum,Approved,Strategic retention,1737.61,Revenue Management,2023-11-15
+E000878,P004993,2024-04-22,Discounted bps,Approved,Migration incentive,16094.48,Risk Review,2026-05-27

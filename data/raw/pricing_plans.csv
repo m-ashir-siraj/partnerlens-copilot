@@ -1,0 +1,10 @@
+pricing_plan_id,plan_name,plan_tier,default_bps,per_txn_fee_usd,monthly_platform_fee_usd,min_monthly_volume_usd,max_monthly_volume_usd,deprecated_flag,eligibility_summary
+LAUNCH,Launch,Starter,90,0.08,99,0,250000.0,0,"SMB, pilot, or low-volume partners under $250k monthly volume; not recommended for high-risk partners."
+GROWTH,Growth,Standard,70,0.06,499,250000,2000000.0,0,Partners with $250k-$2M monthly volume or 5k-50k monthly transactions and acceptable risk.
+SCALE,Scale,Premium,45,0.04,1999,2000000,10000000.0,0,"Partners with $2M-$10M monthly volume, KYC approved, and stable chargeback performance."
+STRATEGIC,Strategic,Enterprise,25,0.025,4999,10000000,,0,Strategic or enterprise partners above $10M monthly volume; requires executive sponsor and review cadence.
+PLATFORM_ISV,Partner Platform / ISV,Platform,55,0.05,999,250000,,0,"Technology Platform or ISV partners with API/SDK integration, multiple merchants, or strong growth."
+HIGH_RISK,High-Risk Processing,Risk Adjusted,110,0.1,2999,0,,0,"High-risk tier, gaming/travel concentration, or elevated chargeback exposure; reserve and review required."
+LEGACY_STANDARD,Legacy Standard,Legacy,65,0.055,0,0,,1,Deprecated plan. Existing partners require review within 12 months and migration when commercially feasible.
+LEGACY_ENTERPRISE,Legacy Enterprise,Legacy,35,0.035,0,0,,1,Deprecated enterprise plan. Requires governance review and active exception record.
+PROMO_GROWTH,Promotional Growth,Promotional,40,0.04,299,250000,2000000.0,0,Temporary acquisition offer for growth-stage partners; review due within 180 days.
