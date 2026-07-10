@@ -1,0 +1,14 @@
+Validation Check,Result
+partner_master row count,5000
+pricing_clean row count,5000
+partner_metrics row count,120000
+Duplicate partner_id in partner_master,0
+Duplicate assignment_id in pricing_clean,0
+Duplicate metric_id in partner_metrics,0
+Duplicate partner-month records in partner_metrics,0
+Pricing records without matching partner,0
+Metric records without matching partner,0
+Technology Platform partners in AZ with growth > 20%,85
+Partners on STRATEGIC pricing tier,391
+Pricing reviews due in next 90 days,361
+Active partners with pricing exceptions,681
