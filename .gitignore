@@ -1,7 +1,15 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[codz]
-*$py.class
+*.pyc
+venv/
+.venv/
+env/
+.env
+*.key
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log
 
 # C extensions
 *.so
