@@ -1,0 +1,31 @@
++-------------------+
+| partner_master    |
++-------------------+
+| partner_id PK     |
+| partner_name      |
+| industry          |
+| state             |
+| city              |
+| region            |
+| partner_size      |
+| status            |
+| onboarding_date   |
++-------------------+
+          |
+          | partner_id
+          |
+   -----------------
+   |               |
+   ↓               ↓
++-------------------+        +-----------------------+
+| partner_pricing   |        | partner_transactions  |
++-------------------+        +-----------------------+
+| pricing_id PK     |        | transaction_id PK     |
+| partner_id FK     |        | partner_id FK         |
+| pricing_tier      |        | transaction_month     |
+| base_fee_pct      |        | transaction_count     |
+| discount_pct      |        | transaction_volume    |
+| effective_date    |        | revenue               |
+| expiration_date   |        | growth_pct            |
+| contract_status   |        +-----------------------+
++-------------------+
