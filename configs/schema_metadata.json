@@ -1,0 +1,88 @@
+{
+  "generated_at_utc": "2026-06-25T05:01:59Z",
+  "seed": 42,
+  "latest_metric_month": "2025-12-01",
+  "tables": {
+    "partners": [
+      "partner_id",
+      "partner_name",
+      "partner_type",
+      "industry_vertical",
+      "partner_size",
+      "partner_status",
+      "country",
+      "state",
+      "city",
+      "region",
+      "integration_type",
+      "sales_channel",
+      "risk_tier",
+      "kyc_status",
+      "pci_level",
+      "onboarding_date",
+      "relationship_manager_region",
+      "synthetic_record_flag"
+    ],
+    "pricing_plans": [
+      "pricing_plan_id",
+      "plan_name",
+      "plan_tier",
+      "default_bps",
+      "per_txn_fee_usd",
+      "monthly_platform_fee_usd",
+      "min_monthly_volume_usd",
+      "max_monthly_volume_usd",
+      "deprecated_flag",
+      "eligibility_summary"
+    ],
+    "partner_pricing": [
+      "assignment_id",
+      "partner_id",
+      "pricing_plan_id",
+      "recommended_pricing_plan_id",
+      "effective_date",
+      "expiration_date",
+      "review_due_date",
+      "negotiated_bps",
+      "negotiated_per_txn_fee_usd",
+      "monthly_minimum_fee_usd",
+      "exception_flag",
+      "exception_type",
+      "approval_status",
+      "approved_by_role"
+    ],
+    "monthly_partner_metrics": [
+      "partner_id",
+      "month",
+      "txn_count",
+      "payment_volume_usd",
+      "avg_ticket_usd",
+      "txn_growth_pct",
+      "volume_growth_pct",
+      "chargeback_rate",
+      "auth_approval_rate",
+      "active_merchants",
+      "refunds_usd",
+      "net_revenue_usd",
+      "gross_margin_usd",
+      "gross_margin_rate"
+    ],
+    "pricing_exceptions": [
+      "exception_id",
+      "partner_id",
+      "requested_date",
+      "exception_type",
+      "exception_status",
+      "business_justification",
+      "expected_annual_revenue_usd",
+      "approved_by_role",
+      "review_due_date"
+    ],
+    "partner_segments": [
+      "partner_id",
+      "as_of_month",
+      "partner_segment",
+      "segment_reason"
+    ]
+  }
+}
