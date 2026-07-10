@@ -1,0 +1,51 @@
+project:
+  name: "PartnerLens Copilot"
+  version: "1.0-baseline"
+
+database:
+  path: "data/processed/partnerlens.db"
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+
+raw_files:
+  partners: "partners.csv"
+  partner_pricing: "partner_pricing.csv"
+  pricing_plans: "pricing_plans.csv"
+  pricing_exceptions: "pricing_exceptions.csv"
+  monthly_partner_metrics: "monthly_partner_metrics.csv"
+  partner_segments: "partner_segments.csv"
+
+processed_files:
+  partner_master: "partner_master_clean.csv"
+  partner_pricing: "partner_pricing_clean.csv"
+  partner_metrics: "partner_metrics_clean.csv"
+  partner_current_preview: "partner_current_preview_1000.csv"
+  validation_summary: "phase3_validation_summary.csv"
+  validated_workbook: "partnerlens_phase3_validated_dataset.xlsx"
+
+schema_metadata:
+  path: "configs/schema_metadata.json"
+
+llm:
+  model: "gpt-4o-mini"
+  temperature: 0
+
+sql_validation:
+  allow_select_only: true
+  blocked_keywords:
+    - DROP
+    - DELETE
+    - UPDATE
+    - INSERT
+    - ALTER
+    - TRUNCATE
+    - CREATE
+    - REPLACE
+
+allowed_tables:
+  - partners
+  - partner_pricing
+  - monthly_partner_metrics
+  - partner_current_preview
