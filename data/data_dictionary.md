@@ -1,30 +1,40 @@
 # Data Dictionary
 
-This document describes the synthetic partner dataset used for the PartnerLens Copilot baseline solution.
+This document describes the synthetic PartnerLens dataset used for the capstone baseline solution.
 
 ## Dataset Overview
 
-The dataset contains synthetic partner demographic, pricing, and transaction information created for academic capstone use. No real company or partner data is included.
+The dataset contains synthetic partner demographic, pricing, transaction, exception, and segmentation data. It was created for academic capstone use and does not contain real company or partner information.
 
-## Tables and Fields
+## Processed Dataset Files
 
-| Field Name | Description | Example |
-|---|---|---|
-| partner_id | Unique synthetic partner identifier | P1001 |
-| partner_name | Synthetic partner name | Desert Tech Payments |
-| industry | Partner industry category | Technology |
-| state | U.S. state | Arizona |
-| city | City name | Phoenix |
-| pricing_tier | Pricing category assigned to partner | Tier 1 |
-| transaction_growth_pct | Year-over-year transaction growth percentage | 22.5 |
-| annual_transaction_volume | Annual transaction volume | 1250000 |
-| annual_revenue | Estimated annual revenue | 850000 |
-| risk_flag | Synthetic risk indicator | Low |
-| source_field | Field used as source evidence for citation audit | transaction_growth_pct |
-| last_updated_date | Synthetic data refresh date | 2026-06-01 |
+| File | Rows | Purpose |
+|---|---:|---|
+| partner_master_clean.csv | 5,000 | Cleaned partner master table |
+| partner_pricing_clean.csv | 5,000 | Cleaned partner pricing table |
+| partner_metrics_clean.csv | 120,000 | Cleaned monthly partner metrics table |
+| partner_current_preview_1000.csv | 1,000 | Joined preview sample for demo and inspection |
+| phase3_validation_summary.csv | 13 | Data validation summary |
+| partnerlens_phase3_validated_dataset.xlsx | Workbook | Validated dataset workbook with summary and sample query outputs |
 
-## Notes
+## SQLite Table Mapping
 
-- All data is synthetic.
-- The dataset is for academic demonstration only.
-- The dataset should not be interpreted as real financial or partner data.
+| Processed File | SQLite Table |
+|---|---|
+| partner_master_clean.csv | partners |
+| partner_pricing_clean.csv | partner_pricing |
+| partner_metrics_clean.csv | monthly_partner_metrics |
+| partner_current_preview_1000.csv | partner_current_preview |
+
+## Main Join Key
+
+The main join key across partner-level tables is:
+
+```text
+partner_id
+```
+
+## Important Notes
+   * All records are synthetic.
+   * State values use abbreviations such as AZ, CA, TX, and NY.
+   * The dataset is intended for academic demonstration only.
