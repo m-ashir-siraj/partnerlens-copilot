@@ -36,7 +36,7 @@ partnerlens-copilot/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
+```text
 ## Installation Instructions
 
 git clone <your-github-repo-link>
