@@ -91,7 +91,7 @@ streamlit run src/app.py
 pytest tests/
 ```
 ## Baseline Workflow
-
+```text
 User Question
       ↓
 PartnerLens Copilot Interface
@@ -111,38 +111,38 @@ Answer Generator
 Citation Auditor
       ↓
 Final Answer with Source Fields
-
+```
 ## Current Implementation Status
 
 ### Version 1 baseline includes:
-      Synthetic partner dataset
-      Data dictionary
-      SQLite database workflow
-      Natural-language-to-SQL baseline design
-      SQL validation layer
-      Query execution layer
-      Business answer generation
-      Citation audit logic
-      Initial evaluation examples
-      Modular repository structure
+1. Synthetic partner dataset
+2. Data dictionary
+3. SQLite database workflow
+4. Natural-language-to-SQL baseline design
+5. SQL validation layer
+6. Query execution layer
+7. Business answer generation
+8. Citation audit logic
+9. Initial evaluation examples
+10. Modular repository structure
 
 ### Known Limitations
-      Dataset is synthetic and smaller than a real enterprise partner database.
-      SQL generation currently supports a limited set of question patterns.
-      Citation auditing is rule-based in the baseline version.
-      Complex multi-step analytical questions may require additional query planning.
-      The interface is basic and designed for baseline demonstration.
+1. Dataset is synthetic and smaller than a real enterprise partner database.
+2. SQL generation currently supports a limited set of question patterns.
+3. Citation auditing is rule-based in the baseline version.
+4. Complex multi-step analytical questions may require additional query planning.
+5. The interface is basic and designed for baseline demonstration.
 
 ### Planned Improvements for Final Submission
-      Expanded synthetic dataset
-      Improved SQL generation
-      More advanced SQL validation
-      Better citation scoring
-      More formal evaluation metrics
-      Enhanced Streamlit interface
-      Additional unit tests
-      Improved error handling for ambiguous questions
+1. Expanded synthetic dataset
+2. Improved SQL generation
+3. More advanced SQL validation
+4. Better citation scoring
+5. More formal evaluation metrics
+6. Enhanced Streamlit interface
+7. Additional unit tests
+8. Improved error handling for ambiguous questions
 
 
 ```text
-Update README for baseline submission
+Updated README for baseline submission
