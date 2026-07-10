@@ -40,20 +40,20 @@ partnerlens-copilot/
 
 ## Installation Instructions
 
-Clone the repository:
+Cloning the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/partnerlens-copilot.git
+git clone https://github.com/m-ashir-siraj/partnerlens-copilot.git
 cd partnerlens-copilot
 ```
 
-Create a virtual environment:
+Creating a virtual environment:
 
 ```bash
 python -m venv venv
 ```
 
-Activate the virtual environment.
+Activating the virtual environment.
 
 For Windows:
 
@@ -67,7 +67,7 @@ For Mac/Linux:
 source venv/bin/activate
 ```
 
-Install dependencies:
+Installing dependencies:
 
 ```bash
 pip install -r requirements.txt
