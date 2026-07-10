@@ -86,7 +86,7 @@ Running the baseline application
 ```bash
 streamlit run src/app.py
 ```
-Runing Tests
+Running Tests
 ```bash
 pytest tests/
 ```
@@ -143,6 +143,3 @@ Final Answer with Source Fields
 7. Additional unit tests
 8. Improved error handling for ambiguous questions
 
-
-```text
-Updated README for baseline submission
