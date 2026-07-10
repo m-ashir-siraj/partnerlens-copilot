@@ -74,19 +74,19 @@ pip install -r requirements.txt
 ```
 
 ## Execution Steps
-### Data Preparation
+Data Preparation
 ```bash
 python src/data_preparation.py
 ```
-### SQLite database creation
+SQLite database creation
 ```bash
 python src/database_setup.py
 ```
-### Running the baseline application
+Running the baseline application
 ```bash
 streamlit run src/app.py
 ```
-### Runing Tests
+Runing Tests
 ```bash
 pytest tests/
 ```
