@@ -6,3 +6,6 @@ streamlit
 pytest
 python-dotenv
 openai
+jupyter
+notebook
+openpyxl
