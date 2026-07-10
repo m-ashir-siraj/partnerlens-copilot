@@ -36,37 +36,60 @@ partnerlens-copilot/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-```text
+```
+
 ## Installation Instructions
 
-git clone <your-github-repo-link>
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/partnerlens-copilot.git
 cd partnerlens-copilot
+```
+
+Create a virtual environment:
+
+```bash
 python -m venv venv
+```
+
+Activate the virtual environment.
+
+For Windows:
+
+```bash
 venv\Scripts\activate
-pip install -r requirements.txt
+```
 
-## For Mac/Linux
+For Mac/Linux:
 
+```bash
 source venv/bin/activate
+```
+
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
 ## Execution Steps
 ### Data Preparation
-
+```bash
 python src/data_preparation.py
-
+```
 ### SQLite database creation
-
+```bash
 python src/database_setup.py
-
+```
 ### Running the baseline application
-
+```bash
 streamlit run src/app.py
-
+```
 ### Runing Tests
-
+```bash
 pytest tests/
-
+```
 ## Baseline Workflow
 
 User Question
@@ -91,38 +114,35 @@ Final Answer with Source Fields
 
 ## Current Implementation Status
 
-Version 1 baseline includes:
+### Version 1 baseline includes:
+      Synthetic partner dataset
+      Data dictionary
+      SQLite database workflow
+      Natural-language-to-SQL baseline design
+      SQL validation layer
+      Query execution layer
+      Business answer generation
+      Citation audit logic
+      Initial evaluation examples
+      Modular repository structure
 
-Synthetic partner dataset
-Data dictionary
-SQLite database workflow
-Natural-language-to-SQL baseline design
-SQL validation layer
-Query execution layer
-Business answer generation
-Citation audit logic
-Initial evaluation examples
-Modular repository structure
+### Known Limitations
+      Dataset is synthetic and smaller than a real enterprise partner database.
+      SQL generation currently supports a limited set of question patterns.
+      Citation auditing is rule-based in the baseline version.
+      Complex multi-step analytical questions may require additional query planning.
+      The interface is basic and designed for baseline demonstration.
 
-Known Limitations
-Dataset is synthetic and smaller than a real enterprise partner database.
-SQL generation currently supports a limited set of question patterns.
-Citation auditing is rule-based in the baseline version.
-Complex multi-step analytical questions may require additional query planning.
-The interface is basic and designed for baseline demonstration.
+### Planned Improvements for Final Submission
+      Expanded synthetic dataset
+      Improved SQL generation
+      More advanced SQL validation
+      Better citation scoring
+      More formal evaluation metrics
+      Enhanced Streamlit interface
+      Additional unit tests
+      Improved error handling for ambiguous questions
 
-Planned Improvements for Final Submission
-Expanded synthetic dataset
-Improved SQL generation
-More advanced SQL validation
-Better citation scoring
-More formal evaluation metrics
-Enhanced Streamlit interface
-Additional unit tests
-Improved error handling for ambiguous questions
-
-
-At the bottom, enter commit message:
 
 ```text
 Update README for baseline submission
