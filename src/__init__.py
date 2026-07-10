@@ -1,0 +1,3 @@
+"""
+PartnerLens Copilot source package.
+"""
