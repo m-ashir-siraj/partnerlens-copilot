@@ -184,4 +184,4 @@ The current baseline demonstrates:
 * Prompt files
 * Supporting notebooks
 * Baseline evaluation documentation
-Planned enhancements for the final submission
+* Planned enhancements for the final submission
