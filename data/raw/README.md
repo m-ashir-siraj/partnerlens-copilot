@@ -18,3 +18,19 @@ The dataset is organized as a multi-table synthetic partner database.
 ## Notes
 
 All files are synthetic and created for academic capstone use. The dataset does not contain real company, customer, partner, pricing, or confidential data.
+
+The raw dataset consists of six synthetic CSV files stored in data/raw/.
+## Dataset Source and Licence
+
+The dataset used in this project is fully synthetic and created for academic capstone purposes. It does not contain real company, partner, customer, pricing, or confidential information.
+
+The raw dataset consists of six CSV files:
+
+- `partners.csv`
+- `partner_pricing.csv`
+- `pricing_plans.csv`
+- `pricing_exceptions.csv`
+- `monthly_partner_metrics.csv`
+- `partner_segments.csv`
+
+Licence: Academic use only.
