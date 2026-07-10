@@ -40,7 +40,7 @@ partnerlens-copilot/
 
 ## Installation Instructions
 
-Cloning the repository:
+Cloning the repository::
 
 ```bash
 git clone https://github.com/m-ashir-siraj/partnerlens-copilot.git
