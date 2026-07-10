@@ -1,13 +1,20 @@
 # Raw Data
 
-This folder contains the original synthetic partner dataset used for the baseline capstone project.
+This folder contains the raw synthetic data files used for the PartnerLens Copilot baseline project.
 
-Expected files:
+The dataset is organized as a multi-table synthetic partner database.
 
-```text
-monthly_partner_metrics.csv
-partner_pricing.csv
-partner_segments.csv
-partners.csv
-pricing_exceptions.csv
-pricing_plans.csv
+## Files
+
+| File | Description |
+|---|---|
+| partners.csv | Partner demographic and master profile data |
+| partner_pricing.csv | Partner-level pricing assignments and negotiated pricing values |
+| pricing_plans.csv | Pricing plan reference table |
+| pricing_exceptions.csv | Pricing exception requests and approval status |
+| monthly_partner_metrics.csv | Monthly transaction, volume, revenue, growth, approval, and chargeback metrics |
+| partner_segments.csv | Partner segmentation output and segment explanation |
+
+## Notes
+
+All files are synthetic and created for academic capstone use. The dataset does not contain real company, customer, partner, pricing, or confidential data.
