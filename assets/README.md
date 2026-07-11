@@ -2,8 +2,6 @@
 
 This folder contains diagrams, screenshots, and visual assets for the PartnerLens Copilot capstone project.
 
-Expected files:
-
 | File | Description |
 |---|---|
-| architecture_diagram.png | System architecture workflow diagram |
+| 03_Table_Relationships_ERD.png | Entity relationship diagram showing PartnerLens table relationships |
