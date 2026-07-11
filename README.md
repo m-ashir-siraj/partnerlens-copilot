@@ -64,46 +64,65 @@ partnerlens-copilot/
 └── .gitignore
 ```
 ## Installation Instructions
+
 Clone the repository:
+
 ```bash
 git clone https://github.com/m-ashir-siraj/partnerlens-copilot.git
 cd partnerlens-copilot
 ```
+
 Create a virtual environment:
+
 ```bash
 python -m venv venv
 ```
+
 Activate the virtual environment.
+
 For Windows:
+
 ```bash
 venv\Scripts\activate
 ```
+
 For Mac/Linux:
+
 ```bash
-For Mac/Linux:
+source venv/bin/activate
 ```
+
 Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
-Execution Steps
+
+## Execution Steps
 
 Validate processed files:
+
 ```bash
 python src/data_preparation.py
 ```
+
 Create the SQLite database:
+
 ```bash
 python src/database_setup.py
 ```
+
 Run the baseline application:
+
 ```bash
 streamlit run src/app.py
 ```
+
 Run tests:
+
 ```bash
 pytest tests/
-```
+``````
 
 ## Supporting Notebooks
 | Notebook                              | Purpose                                                                                            |
