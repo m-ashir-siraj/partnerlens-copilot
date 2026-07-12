@@ -31,6 +31,7 @@ sample_questions = [
     "Show top partners by payment volume",
     "Show pricing information",
     "Show partner risk information",
+    "Show gross margin information",
 ]
 
 selected_question = st.selectbox("Choose a sample question", sample_questions)
