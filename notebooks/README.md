@@ -12,6 +12,7 @@ The notebooks demonstrate data validation, SQLite baseline development, citation
 | 2 | SQL_Baseline_PartnerLens.ipynb | Builds the SQLite baseline, loads processed data into database tables, and demonstrates sample SQL queries |
 | 3 | Citation_Auditor_Guardrails.ipynb | Demonstrates citation-auditing logic, guardrails, and evidence checks for generated answers |
 | 4 | PartnerLens_Assistant_Prototype.ipynb | Demonstrates the end-to-end PartnerLens assistant prototype workflow |
+| 5 | Formal_Evaluation_PartnerLens.ipynb | Formally evaluates PartnerLens against the SQL baseline using execution, answer-quality, citation, safety, and error-analysis metrics|
 
 ## Notes
 
