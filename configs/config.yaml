@@ -18,9 +18,9 @@ raw_files:
   partner_segments: "partner_segments.csv"
 
 processed_files:
-  partner_master: "partner_master_clean.csv"
+  partners: "partner_master_clean.csv"
   partner_pricing: "partner_pricing_clean.csv"
-  partner_metrics: "partner_metrics_clean.csv"
+  monthly_partner_metrics: "partner_metrics_clean.csv"
   partner_current_preview: "partner_current_preview_1000.csv"
   validation_summary: "phase3_validation_summary.csv"
   validated_workbook: "partnerlens_phase3_validated_dataset.xlsx"
