@@ -56,7 +56,7 @@ AUDIT_LOG_PATH = (
     / "query_audit_log.jsonl"
 )
 
-APP_VERSION = "Phase 8 Final Baseline"
+APP_VERSION = "PartnerLens Copilot 2.0 Final"
 
 
 SAMPLE_QUESTIONS = {
