@@ -1,10 +1,11 @@
-# PartnerLens Copilot: Citation-Audited Partner Pricing & Demographic Intelligence Assistant
+# PartnerLens Copilot
+## Citation-Audited Partner Pricing & Demographic Intelligence Assistant
 
-## Project Overview
+**Final Capstone Submission — Version 2.0**
 
-PartnerLens Copilot is a Version 1 baseline Generative AI solution that allows business users to ask natural-language questions about synthetic partner pricing, demographic, transaction, and segmentation data.
-
-The system converts a user question into SQL, validates the SQL, queries a SQLite database, generates a business-friendly answer, and audits the final response for source-field support.
+PartnerLens Copilot is a controlled natural-language-to-SQL
+assistant for synthetic partner demographic, pricing, transaction,
+risk, and compliance data.
 
 ## Business Objective
 
@@ -125,12 +126,13 @@ pytest tests/
 ``````
 
 ## Supporting Notebooks
-| Notebook                              | Purpose                                                                                            |
-| ------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| Data_Inventory_and_Validation.ipynb   | Documents data inventory, data quality checks, and validation of the synthetic PartnerLens dataset |
-| SQL_Baseline_PartnerLens.ipynb        | Demonstrates SQLite database creation and baseline SQL query testing                               |
-| Citation_Auditor_Guardrails.ipynb     | Demonstrates citation-auditing logic and guardrail checks                                          |
-| PartnerLens_Assistant_Prototype.ipynb | Demonstrates the end-to-end assistant prototype workflow                                           |
+| Notebook | Purpose |
+|---|---|
+| Data_Inventory_and_Validation.ipynb | Data inventory and validation |
+| SQL_Baseline_PartnerLens.ipynb | Canonical SQLite tables and baseline SQL |
+| Citation_Auditor_Guardrails.ipynb | Citation and grounding guardrails |
+| PartnerLens_Assistant_Prototype.ipynb | End-to-end modular workflow |
+| Formal_Evaluation_PartnerLens.ipynb | Final metrics and failure analysis |                                       |
 
 The notebooks are supporting artefacts. The modular implementation used for execution is stored in the ```text src/``` folder.
 
@@ -156,51 +158,111 @@ Citation Auditor
       ↓
 Final Answer with Source Fields
 ```
-## Current Implementation Status
-   * Version 1 baseline includes:
-   * Synthetic multi-table partner dataset
-   * Processed and validated data files
-* Schema metadata
-* Data dictionary
-* SQLite database creation workflow
-* Natural-language-to-SQL baseline design
-* SQL validation layer
-* Query execution layer
-* Business answer generation
-* Citation audit logic
-* Supporting notebooks
-* Initial evaluation examples
-* Modular repository structure
+## Final Evaluation Results
 
-## Known Limitations
-* Dataset is synthetic and smaller than a real enterprise partner database.
-* SQL generation currently supports a limited set of question patterns.
-* Citation auditing is rule-based in the baseline version.
-* Complex multi-step analytical questions may require additional query planning.
-* Some notebooks may include development-environment references from Colab or Google Drive.
-* The interface is basic and designed for baseline demonstration.
+| Metric | Result |
+|---|---:|
+| Evaluation cases | 8 |
+| Routing accuracy | 100.0% |
+| Intent accuracy | 100.0% |
+| Source-table consistency | 100.0% |
+| SQL validation pass rate | 100.0% |
+| Query execution success rate | 100.0% |
+| Answer-generation rate | 100.0% |
+| Citation-audit pass rate | 100.0% |
+| Unsupported-question rejection rate | 100.0% |
+| End-to-end case pass rate | 100.0% |
 
-## Planned Improvements for Final Submission
-* Expand SQL generation logic.
-* Add richer schema-aware prompt handling.
-* Improve citation auditing with claim-level evidence checks.
-* Add more formal evaluation metrics.
-* Improve Streamlit user interface.
-* Add better error handling for ambiguous questions.
-* Add more test cases.
-* Improve final documentation and deployment instructions.
+Detailed results:
+- `artifacts/evaluation/README.md`
+- `artifacts/evaluation/formal_evaluation_metrics.csv`
+- `artifacts/evaluation/formal_evaluation_case_results.csv`
+- `artifacts/evaluation/formal_evaluation_failure_analysis.csv`
 
-## Mid-Submission Baseline Notes
+## Final Implementation
 
-This repository represents the Version 1 baseline submission for the PartnerLens Copilot capstone project.
+The final version of PartnerLens Copilot delivers a modular, reproducible, and citation-audited natural-language-to-SQL solution for partner pricing, demographic, and transaction intelligence.
 
-The current baseline demonstrates:
-* Raw synthetic data
-* Processed clean datasets
-* Validation artefacts
-* SQLite database setup
-* Modular Python source code
-* Prompt files
-* Supporting notebooks
-* Baseline evaluation documentation
-* Planned enhancements for the final submission
+The implementation includes:
+
+* A synthetic multi-table partner dataset designed to represent enterprise partner information without exposing confidential data.
+* Cleaned, processed, and validated datasets with supporting validation outputs.
+* A documented data dictionary and schema metadata.
+* A reproducible SQLite database creation workflow.
+* Repository-relative paths so notebooks can run locally or in a cloned Google Colab environment without requiring Google Drive.
+* Consistent SQLite table names across notebooks and Python source modules:
+
+  * `partners`
+  * `partner_pricing`
+  * `monthly_partner_metrics`
+  * `partner_current_preview`
+* A natural-language-to-SQL query-generation layer.
+* Schema-aware query and prompt handling.
+* A SQL validation layer that restricts execution to approved read-only queries.
+* A controlled query-execution layer for the PartnerLens SQLite database.
+* Business-friendly answer generation based on returned query results.
+* Record-level citation auditing that checks cited partner identifiers, source tables, missing citations, and fabricated citations.
+* Handling for valid results, empty result sets, unsupported questions, and malformed responses.
+* A Streamlit interface for end-to-end demonstration.
+* Modular Python components covering data preparation, database setup, SQL generation, SQL validation, query execution, answer generation, citation auditing, and application orchestration.
+* Supporting notebooks for data validation, SQL baselining, citation guardrails, assistant prototyping, and formal evaluation.
+* Automated tests and evaluation cases covering successful and unsuccessful scenarios.
+* Repository-based evaluation artefacts and computed performance metrics.
+* Architecture diagrams, workflow documentation, deployment guidance, and final-submission evidence.
+
+## Phase 8 Improvements Completed
+
+The following enhancements were implemented after the Version 1 baseline review:
+
+* Expanded SQL-generation coverage for additional supported business-question patterns.
+* Improved schema-aware processing to reduce invalid table and column references.
+* Strengthened citation auditing through record-level identifier verification, source-table checks, fabricated-citation detection, and machine-readable audit results.
+* Added more formal evaluation metrics and failure analysis.
+* Surfaced evaluation results directly within the repository.
+* Improved the Streamlit user interface and presentation of generated SQL, query results, business answers, and citation-audit outcomes.
+* Added clearer error handling for ambiguous, unsupported, unsafe, and empty-result questions.
+* Expanded positive, negative, and edge-case test coverage.
+* Removed mandatory Google Drive dependencies from the notebooks.
+* Standardized table names across the notebooks, SQLite database, and `src` modules.
+* Added clearer roadmap justifications, final documentation, setup instructions, and local execution guidance.
+* Added repository-based notebook outputs and evaluation artefacts to improve reproducibility and reviewer visibility.
+
+## Current Limitations
+
+Although the final implementation demonstrates the complete PartnerLens workflow, several limitations remain:
+
+* The dataset is synthetic and smaller than a production-scale enterprise partner database.
+* SQL generation supports a controlled set of business-question patterns and is not intended to interpret every possible natural-language request.
+* The citation auditor performs structural and record-level grounding checks; it does not provide full semantic entailment or independent verification of every natural-language claim.
+* Complex questions requiring multiple dependent queries, advanced calculations, forecasting, or multi-step reasoning may require a more sophisticated query planner.
+* The current implementation uses SQLite and would require additional security, authentication, authorization, and performance controls before enterprise deployment.
+* The Streamlit interface is intended for capstone demonstration and has not been optimized for production-scale usage.
+* Evaluation is performed against a defined synthetic test set and may not represent every real-world user question or data-quality condition.
+* Production deployment would require integration with approved enterprise data sources, access controls, monitoring, audit logging, and organizational governance standards.
+
+## Final Submission Status
+
+This repository represents the final submission of the PartnerLens Copilot capstone project.
+
+The completed solution demonstrates:
+
+* Synthetic raw and processed partner data.
+* Data-quality validation and validation artefacts.
+* Schema metadata and a documented data dictionary.
+* Reproducible SQLite database setup.
+* Modular Python source code.
+* Structured prompt and configuration files.
+* Natural-language-to-SQL generation.
+* SQL safety validation.
+* Controlled query execution.
+* Business-readable answer generation.
+* Record-level citation auditing.
+* End-to-end Streamlit application integration.
+* Reproducible supporting notebooks.
+* Automated tests and formal evaluation.
+* Computed performance metrics and failure analysis.
+* Architecture and workflow documentation.
+* Final setup, execution, demonstration, and deployment guidance.
+
+Together, these components provide an end-to-end demonstration of how generative AI can make structured partner information more accessible while reducing hallucination risk through controlled SQL execution, explicit source attribution, and citation auditing.
+
