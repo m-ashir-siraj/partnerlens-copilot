@@ -1,0 +1,87 @@
+generated_at_utc,dataset,check_name,status,details
+2026-07-19T05:07:06.290267+00:00,partners,file_exists,PASS,Required file: partner_master_clean.csv
+2026-07-19T05:07:06.290267+00:00,partners,duplicate_column_names,PASS,No duplicate column names found.
+2026-07-19T05:07:06.290267+00:00,partners,file_readable,PASS,"Loaded 5,000 rows and 20 columns."
+2026-07-19T05:07:06.290267+00:00,partners,nonempty_dataset,PASS,"Dataset contains 5,000 rows."
+2026-07-19T05:07:06.290267+00:00,partners,expected_row_count,PASS,"Expected approximately 5,000 rows; found 5,000."
+2026-07-19T05:07:06.290267+00:00,partners,required_columns,PASS,All required columns are present.
+2026-07-19T05:07:06.290267+00:00,partners,critical_field:partner_id,PASS,0 missing or blank value(s) found in 'partner_id'.
+2026-07-19T05:07:06.290267+00:00,partners,critical_field:partner_name,PASS,0 missing or blank value(s) found in 'partner_name'.
+2026-07-19T05:07:06.290267+00:00,partners,critical_field:synthetic_record_flag,PASS,0 missing or blank value(s) found in 'synthetic_record_flag'.
+2026-07-19T05:07:06.290267+00:00,partners,duplicate_business_key,PASS,"0 row(s) have duplicate values for key ('partner_id',)."
+2026-07-19T05:07:06.290267+00:00,partners,date_field:onboarding_date,PASS,0 invalid populated date value(s) found in 'onboarding_date'.
+2026-07-19T05:07:06.290267+00:00,partners,state_code_format,PASS,0 invalid populated state code(s) found. Expected two uppercase letters.
+2026-07-19T05:07:06.290267+00:00,partners,synthetic_record_flag,PASS,0 missing and 0 unexpected synthetic flag value(s) found.
+2026-07-19T05:07:06.290267+00:00,partner_pricing,file_exists,PASS,Required file: partner_pricing_clean.csv
+2026-07-19T05:07:06.290267+00:00,partner_pricing,duplicate_column_names,PASS,No duplicate column names found.
+2026-07-19T05:07:06.290267+00:00,partner_pricing,file_readable,PASS,"Loaded 5,000 rows and 16 columns."
+2026-07-19T05:07:06.290267+00:00,partner_pricing,nonempty_dataset,PASS,"Dataset contains 5,000 rows."
+2026-07-19T05:07:06.290267+00:00,partner_pricing,expected_row_count,PASS,"Expected approximately 5,000 rows; found 5,000."
+2026-07-19T05:07:06.290267+00:00,partner_pricing,required_columns,PASS,All required columns are present.
+2026-07-19T05:07:06.290267+00:00,partner_pricing,critical_field:assignment_id,PASS,0 missing or blank value(s) found in 'assignment_id'.
+2026-07-19T05:07:06.290267+00:00,partner_pricing,critical_field:partner_id,PASS,0 missing or blank value(s) found in 'partner_id'.
+2026-07-19T05:07:06.290267+00:00,partner_pricing,critical_field:pricing_plan_id,PASS,0 missing or blank value(s) found in 'pricing_plan_id'.
+2026-07-19T05:07:06.290267+00:00,partner_pricing,duplicate_business_key,PASS,"0 row(s) have duplicate values for key ('assignment_id',)."
+2026-07-19T05:07:06.290267+00:00,partner_pricing,numeric_field:negotiated_bps,PASS,0 nonnumeric populated value(s) found in 'negotiated_bps'.
+2026-07-19T05:07:06.290267+00:00,partner_pricing,nonnegative_field:negotiated_bps,PASS,0 negative value(s) found in 'negotiated_bps'.
+2026-07-19T05:07:06.290267+00:00,partner_pricing,numeric_field:negotiated_per_txn_fee_usd,PASS,0 nonnumeric populated value(s) found in 'negotiated_per_txn_fee_usd'.
+2026-07-19T05:07:06.290267+00:00,partner_pricing,nonnegative_field:negotiated_per_txn_fee_usd,PASS,0 negative value(s) found in 'negotiated_per_txn_fee_usd'.
+2026-07-19T05:07:06.290267+00:00,partner_pricing,numeric_field:monthly_minimum_fee_usd,PASS,0 nonnumeric populated value(s) found in 'monthly_minimum_fee_usd'.
+2026-07-19T05:07:06.290267+00:00,partner_pricing,nonnegative_field:monthly_minimum_fee_usd,PASS,0 negative value(s) found in 'monthly_minimum_fee_usd'.
+2026-07-19T05:07:06.290267+00:00,partner_pricing,date_field:effective_date,PASS,0 invalid populated date value(s) found in 'effective_date'.
+2026-07-19T05:07:06.290267+00:00,partner_pricing,date_field:expiration_date,PASS,0 invalid populated date value(s) found in 'expiration_date'.
+2026-07-19T05:07:06.290267+00:00,partner_pricing,date_field:review_due_date,PASS,0 invalid populated date value(s) found in 'review_due_date'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,file_exists,PASS,Required file: partner_metrics_clean.csv
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,duplicate_column_names,PASS,No duplicate column names found.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,file_readable,PASS,"Loaded 120,000 rows and 20 columns."
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,nonempty_dataset,PASS,"Dataset contains 120,000 rows."
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,expected_row_count,PASS,"Expected approximately 120,000 rows; found 120,000."
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,required_columns,PASS,All required columns are present.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,critical_field:partner_id,PASS,0 missing or blank value(s) found in 'partner_id'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,critical_field:month,PASS,0 missing or blank value(s) found in 'month'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,duplicate_business_key,PASS,"0 row(s) have duplicate values for key ('partner_id', 'month')."
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,numeric_field:txn_count,PASS,0 nonnumeric populated value(s) found in 'txn_count'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,nonnegative_field:txn_count,PASS,0 negative value(s) found in 'txn_count'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,numeric_field:payment_volume_usd,PASS,0 nonnumeric populated value(s) found in 'payment_volume_usd'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,nonnegative_field:payment_volume_usd,PASS,0 negative value(s) found in 'payment_volume_usd'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,numeric_field:avg_ticket_usd,PASS,0 nonnumeric populated value(s) found in 'avg_ticket_usd'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,nonnegative_field:avg_ticket_usd,PASS,0 negative value(s) found in 'avg_ticket_usd'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,numeric_field:txn_growth_pct,PASS,0 nonnumeric populated value(s) found in 'txn_growth_pct'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,numeric_field:volume_growth_pct,PASS,0 nonnumeric populated value(s) found in 'volume_growth_pct'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,numeric_field:chargeback_rate,PASS,0 nonnumeric populated value(s) found in 'chargeback_rate'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,nonnegative_field:chargeback_rate,PASS,0 negative value(s) found in 'chargeback_rate'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,numeric_field:auth_approval_rate,PASS,0 nonnumeric populated value(s) found in 'auth_approval_rate'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,nonnegative_field:auth_approval_rate,PASS,0 negative value(s) found in 'auth_approval_rate'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,numeric_field:active_merchants,PASS,0 nonnumeric populated value(s) found in 'active_merchants'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,nonnegative_field:active_merchants,PASS,0 negative value(s) found in 'active_merchants'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,numeric_field:refunds_usd,PASS,0 nonnumeric populated value(s) found in 'refunds_usd'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,nonnegative_field:refunds_usd,PASS,0 negative value(s) found in 'refunds_usd'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,numeric_field:net_revenue_usd,PASS,0 nonnumeric populated value(s) found in 'net_revenue_usd'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,numeric_field:gross_margin_usd,PASS,0 nonnumeric populated value(s) found in 'gross_margin_usd'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,numeric_field:gross_margin_rate,PASS,0 nonnumeric populated value(s) found in 'gross_margin_rate'.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,date_field:month,PASS,0 invalid populated date value(s) found in 'month'.
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,file_exists,PASS,Required file: partner_current_preview_1000.csv
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,duplicate_column_names,PASS,No duplicate column names found.
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,file_readable,PASS,"Loaded 1,000 rows and 47 columns."
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,nonempty_dataset,PASS,"Dataset contains 1,000 rows."
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,expected_row_count,PASS,"Expected approximately 1,000 rows; found 1,000."
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,required_columns,PASS,All required columns are present.
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,critical_field:partner_id,PASS,0 missing or blank value(s) found in 'partner_id'.
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,critical_field:partner_name,PASS,0 missing or blank value(s) found in 'partner_name'.
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,duplicate_business_key,PASS,"0 row(s) have duplicate values for key ('partner_id',)."
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,numeric_field:txn_growth_pct,PASS,0 nonnumeric populated value(s) found in 'txn_growth_pct'.
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,numeric_field:payment_volume_usd,PASS,0 nonnumeric populated value(s) found in 'payment_volume_usd'.
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,nonnegative_field:payment_volume_usd,PASS,0 negative value(s) found in 'payment_volume_usd'.
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,numeric_field:txn_count,PASS,0 nonnumeric populated value(s) found in 'txn_count'.
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,nonnegative_field:txn_count,PASS,0 negative value(s) found in 'txn_count'.
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,numeric_field:net_revenue_usd,PASS,0 nonnumeric populated value(s) found in 'net_revenue_usd'.
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,state_code_format,PASS,0 invalid populated state code(s) found. Expected two uppercase letters.
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,synthetic_record_flag,PASS,0 missing and 0 unexpected synthetic flag value(s) found.
+2026-07-19T05:07:06.290267+00:00,phase3_validation_summary,evidence_file_exists,PASS,Evidence file: phase3_validation_summary.csv
+2026-07-19T05:07:06.290267+00:00,phase3_validation_summary,evidence_file_readable,PASS,Loaded 13 validation summary row(s).
+2026-07-19T05:07:06.290267+00:00,partner_pricing,partner_id_referential_integrity,PASS,All partner IDs exist in the master partner file.
+2026-07-19T05:07:06.290267+00:00,monthly_partner_metrics,partner_id_referential_integrity,PASS,All partner IDs exist in the master partner file.
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,partner_id_referential_integrity,PASS,All partner IDs exist in the master partner file.
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,master_consistency:partner_name,PASS,0 preview-to-master mismatch(es) found for 'partner_name'.
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,master_consistency:industry_vertical,PASS,0 preview-to-master mismatch(es) found for 'industry_vertical'.
+2026-07-19T05:07:06.290267+00:00,partner_current_preview,master_consistency:state,PASS,0 preview-to-master mismatch(es) found for 'state'.
