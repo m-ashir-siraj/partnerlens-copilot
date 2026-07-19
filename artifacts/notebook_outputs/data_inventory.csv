@@ -1,0 +1,11 @@
+layer,canonical_table_name,file_name,row_count,column_count,duplicate_column_names,file_size_mb
+processed,monthly_partner_metrics,partner_metrics_clean.csv,120000,20,0,17.233
+processed,partner_current_preview,partner_current_preview_1000.csv,1000,47,0,0.456
+processed,partner_pricing,partner_pricing_clean.csv,5000,16,0,0.577
+processed,partners,partner_master_clean.csv,5000,20,0,0.805
+raw,monthly_partner_metrics,monthly_partner_metrics.csv,120000,14,0,11.712
+raw,partner_pricing,partner_pricing.csv,5000,14,0,0.504
+raw,partner_segments,partner_segments.csv,5000,4,0,0.687
+raw,partners,partners.csv,5000,18,0,0.725
+raw,pricing_exceptions,pricing_exceptions.csv,878,9,0,0.1
+raw,pricing_plans,pricing_plans.csv,9,10,0,0.002

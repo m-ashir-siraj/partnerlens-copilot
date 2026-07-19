@@ -1,0 +1,7 @@
+scenario,expected_pass,actual_pass,expectation_met,audit_score_pct,reason_codes,missing_record_ids,unexpected_record_ids,missing_source_tables
+valid_grounded_answer,True,True,True,100.0,,,,
+missing_record_citations,False,False,True,77.8,"record_citations_missing, record_citation_coverage_incomplete","P000101, P000202",,
+fabricated_record_citation,False,False,True,77.8,"record_citation_coverage_incomplete, unexpected_or_fabricated_record_citation",P000101,P999999,
+missing_source_table,False,False,True,88.9,source_table_citation_incomplete,,,partner_current_preview
+missing_grounding_statement,False,False,True,88.9,grounding_statement_missing,,,
+valid_zero_result_answer,True,True,True,100.0,,,,

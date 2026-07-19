@@ -1,0 +1,34 @@
+dataset,check_name,status,details
+partners,required_columns,PASS,All required columns present.
+partners,duplicate_business_key,PASS,Duplicate-key rows: 0
+partners,critical_field::partner_id,PASS,Missing or blank values: 0
+partners,critical_field::partner_name,PASS,Missing or blank values: 0
+partners,critical_field::synthetic_record_flag,PASS,Missing or blank values: 0
+partner_pricing,required_columns,PASS,All required columns present.
+partner_pricing,duplicate_business_key,PASS,Duplicate-key rows: 0
+partner_pricing,critical_field::assignment_id,PASS,Missing or blank values: 0
+partner_pricing,critical_field::partner_id,PASS,Missing or blank values: 0
+partner_pricing,critical_field::pricing_plan_id,PASS,Missing or blank values: 0
+partner_pricing,numeric_field::negotiated_bps,PASS,Nonnumeric populated values: 0
+partner_pricing,numeric_field::negotiated_per_txn_fee_usd,PASS,Nonnumeric populated values: 0
+partner_pricing,numeric_field::monthly_minimum_fee_usd,PASS,Nonnumeric populated values: 0
+monthly_partner_metrics,required_columns,PASS,All required columns present.
+monthly_partner_metrics,duplicate_business_key,PASS,Duplicate-key rows: 0
+monthly_partner_metrics,critical_field::partner_id,PASS,Missing or blank values: 0
+monthly_partner_metrics,critical_field::month,PASS,Missing or blank values: 0
+monthly_partner_metrics,numeric_field::txn_count,PASS,Nonnumeric populated values: 0
+monthly_partner_metrics,numeric_field::payment_volume_usd,PASS,Nonnumeric populated values: 0
+monthly_partner_metrics,numeric_field::txn_growth_pct,PASS,Nonnumeric populated values: 0
+monthly_partner_metrics,numeric_field::net_revenue_usd,PASS,Nonnumeric populated values: 0
+partner_current_preview,required_columns,PASS,All required columns present.
+partner_current_preview,duplicate_business_key,PASS,Duplicate-key rows: 0
+partner_current_preview,critical_field::partner_id,PASS,Missing or blank values: 0
+partner_current_preview,critical_field::partner_name,PASS,Missing or blank values: 0
+partner_current_preview,numeric_field::txn_count,PASS,Nonnumeric populated values: 0
+partner_current_preview,numeric_field::payment_volume_usd,PASS,Nonnumeric populated values: 0
+partner_current_preview,numeric_field::txn_growth_pct,PASS,Nonnumeric populated values: 0
+partner_current_preview,numeric_field::net_revenue_usd,PASS,Nonnumeric populated values: 0
+partner_pricing,partner_id_referential_integrity,PASS,All partner IDs exist in partners.
+monthly_partner_metrics,partner_id_referential_integrity,PASS,All partner IDs exist in partners.
+partner_current_preview,partner_id_referential_integrity,PASS,All partner IDs exist in partners.
+partners,synthetic_record_flag,PASS,Unexpected flag values: 0

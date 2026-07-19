@@ -1,0 +1,11 @@
+metric,value
+evaluation_case_count,8.0
+routing_accuracy_pct,100.0
+intent_accuracy_pct,100.0
+source_table_consistency_pct,100.0
+supported_sql_validation_rate_pct,100.0
+supported_execution_success_rate_pct,100.0
+supported_answer_generation_rate_pct,100.0
+supported_citation_audit_pass_rate_pct,100.0
+unsupported_safe_rejection_rate_pct,100.0
+end_to_end_case_pass_rate_pct,100.0

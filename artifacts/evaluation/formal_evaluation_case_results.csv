@@ -1,0 +1,9 @@
+case_id,question,expected_supported,expected_intent,actual_supported,actual_intent,routing_correct,intent_correct,source_tables,source_tables_consistent,validation_passed,validation_reason_code,execution_status,row_count,answer_generated,citation_audit_passed,citation_audit_score_pct,safe_rejection,case_passed,failure_stage
+E01,Show me partners in Arizona with transaction growth above 20%,True,arizona_growth_filter,True,arizona_growth_filter,True,True,partner_current_preview,True,True,validation_passed,success,14,True,True,100.0,False,True,
+E02,Show me AZ partners with transaction growth above 15%,True,arizona_growth_filter,True,arizona_growth_filter,True,True,partner_current_preview,True,True,validation_passed,success,25,True,True,100.0,False,True,
+E03,Show partner pricing information,True,partner_pricing,True,partner_pricing,True,True,"partner_pricing, partners",True,True,validation_passed,success,25,True,True,100.0,False,True,
+E04,Show the top partners by payment volume,True,top_partners_by_payment_volume,True,top_partners_by_payment_volume,True,True,partner_current_preview,True,True,validation_passed,success,10,True,True,100.0,False,True,
+E05,"Show partner risk, KYC, and PCI information",True,partner_risk,True,partner_risk,True,True,partners,True,True,validation_passed,success,25,True,True,100.0,False,True,
+E06,List all partners,True,partner_directory,True,partner_directory,True,True,partners,True,True,validation_passed,success,25,True,True,100.0,False,True,
+E07,What is the weather today?,False,unsupported,False,unsupported,True,True,,True,,,safely_rejected,0,False,False,,True,True,
+E08,Predict next year's stock market performance,False,unsupported,False,unsupported,True,True,,True,,,safely_rejected,0,False,False,,True,True,

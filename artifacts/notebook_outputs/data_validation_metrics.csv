@@ -1,0 +1,6 @@
+metric,value
+total_checks,33.0
+passed_checks,33.0
+failed_checks,0.0
+validation_pass_rate_pct,100.0
+processed_rows_validated,131000.0

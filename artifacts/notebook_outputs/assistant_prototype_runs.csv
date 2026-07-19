@@ -1,0 +1,7 @@
+user_question,recognized_intent,query_supported,validation_passed,execution_status,row_count,elapsed_ms,citation_audit_passed,citation_audit_score_pct,end_to_end_passed
+Show me partners in Arizona with transaction growth above 20%,arizona_growth_filter,True,True,success,14,15.0,True,100.0,True
+Show the top partners by payment volume,top_partners_by_payment_volume,True,True,success,10,16.0,True,100.0,True
+Show partner pricing exceptions,partner_pricing,True,True,success,25,15.0,True,100.0,True
+"Show partner risk, KYC, and PCI information",partner_risk,True,True,success,25,31.0,True,100.0,True
+List all partners,partner_directory,True,True,success,25,15.0,True,100.0,True
+What is the weather today?,unsupported,False,False,safely_rejected,0,,False,,True

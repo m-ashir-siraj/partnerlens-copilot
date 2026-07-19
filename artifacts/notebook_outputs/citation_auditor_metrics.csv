@@ -1,0 +1,6 @@
+metric,value
+scenario_count,6.0
+scenario_expectation_accuracy_pct,100.0
+valid_answer_pass_rate_pct,100.0
+guardrail_detection_rate_pct,100.0
+average_audit_score_pct,88.9

@@ -1,0 +1,7 @@
+metric,value
+demonstration_question_count,6.0
+supported_execution_success_rate_pct,100.0
+supported_citation_pass_rate_pct,100.0
+unsupported_safe_rejection_rate_pct,100.0
+overall_end_to_end_pass_rate_pct,100.0
+average_supported_execution_time_ms,18.4

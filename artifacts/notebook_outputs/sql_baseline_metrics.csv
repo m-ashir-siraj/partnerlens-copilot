@@ -1,0 +1,6 @@
+metric,value
+baseline_case_count,5.0
+sql_validation_pass_rate_pct,100.0
+query_execution_success_rate_pct,100.0
+average_execution_time_ms,12.6
+canonical_table_presence_pct,100.0

@@ -1,0 +1,6 @@
+case_id,description,validation_passed,validation_reason_code,referenced_tables,validated_limit,execution_status,row_count,elapsed_ms,output_columns
+AZ_GROWTH,Arizona partners with transaction growth above 20%,True,validation_passed,partner_current_preview,25,success,14,0.0,"partner_id, partner_name, industry_vertical, state, txn_growth_pct, payment_volume_usd, net_revenue_usd"
+TOP_VOLUME,Top partners by payment volume,True,validation_passed,partner_current_preview,10,success,10,0.0,"partner_id, partner_name, industry_vertical, state, payment_volume_usd, txn_count, net_revenue_usd"
+PARTNER_RISK,Partner risk and compliance directory,True,validation_passed,partners,25,success,25,16.0,"partner_id, partner_name, industry_vertical, state, risk_tier, kyc_status, pci_level"
+PARTNER_PRICING,Partner pricing assignments with partner names,True,validation_passed,"partner_pricing, partners",25,success,25,31.0,"partner_id, partner_name, industry_vertical, state, pricing_plan_id, recommended_pricing_plan_id, negotiated_bps, negotiated_per_txn_fee_usd, exception_flag, approval_status"
+PARTNER_DIRECTORY,General partner directory,True,validation_passed,partners,25,success,25,16.0,"partner_id, partner_name, partner_type, industry_vertical, partner_size, partner_status, state, region, risk_tier, kyc_status"

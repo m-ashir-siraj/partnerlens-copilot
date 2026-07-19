@@ -1,23 +1,42 @@
-# Notebooks
+# PartnerLens Notebooks
 
-This folder contains supporting Python notebooks for the PartnerLens Copilot baseline submission.
+These notebooks are repository-native final-submission artifacts. They do not require Google Drive and use project-relative paths.
 
-The notebooks demonstrate data validation, SQLite baseline development, citation-auditor guardrails, and the prototype assistant workflow.
+## Execution order
 
-## Notebook Execution Order
+1. `Data_Inventory_and_Validation.ipynb`
+2. `SQL_Baseline_PartnerLens.ipynb`
+3. `Citation_Auditor_Guardrails.ipynb`
+4. `PartnerLens_Assistant_Prototype.ipynb`
+5. `Formal_Evaluation_PartnerLens.ipynb`
 
-| Order | Notebook | Purpose |
-|---:|---|---|
-| 1 | Data_Inventory_and_Validation.ipynb | Performs data inventory checks, validation checks, and confirms readiness of the raw and processed synthetic datasets |
-| 2 | SQL_Baseline_PartnerLens.ipynb | Builds the SQLite baseline, loads processed data into database tables, and demonstrates sample SQL queries |
-| 3 | Citation_Auditor_Guardrails.ipynb | Demonstrates citation-auditing logic, guardrails, and evidence checks for generated answers |
-| 4 | PartnerLens_Assistant_Prototype.ipynb | Demonstrates the end-to-end PartnerLens assistant prototype workflow |
-| 5 | Formal_Evaluation_PartnerLens.ipynb | Formally evaluates PartnerLens against the SQL baseline using execution, answer-quality, citation, safety, and error-analysis metrics|
+## Setup
 
-## Notes
+From the repository root:
 
-These notebooks are included as supporting artefacts for evaluator review.
+```bash
+python -m pip install -r requirements.txt
+python -m notebook
+```
 
-The main reusable project implementation is stored in the `src/` folder. The notebooks should not be treated as the only implementation of the project.
+Open the notebook from the `notebooks/` folder and run **Kernel → Restart Kernel and Run All Cells**.
 
-Some notebook cells may reference Google Colab or Google Drive paths from the development environment. For repository execution, use the project-relative paths documented in the main `README.md`.
+## Generated evidence
+
+The notebooks write computed evidence to:
+
+- `artifacts/notebook_outputs/`
+- `artifacts/evaluation/`
+
+Commit those outputs for the final submission so evaluators can inspect the metrics without rerunning every notebook.
+
+## Canonical table names
+
+The notebooks and `src` modules consistently use:
+
+- `partners`
+- `partner_pricing`
+- `monthly_partner_metrics`
+- `partner_current_preview`
+
+CSV filenames remain implementation details and are mapped to these canonical SQLite table names.
